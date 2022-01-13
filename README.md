@@ -1,2 +1,2 @@
 # PromoIt
-System that promotes social campaigns in twitter
+System that promotes social campaigns in Twitter
