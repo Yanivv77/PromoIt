@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{AD86DA8B-5713-4DDA-B717-247E1C17E636}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{ABAE42B9-B3E1-441B-90A2-77F84EBD1A24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7F5FDBFA-8524-405A-B7D5-8944D0DDC71E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{966657AC-1F71-46A2-9DAA-E48ABB893F22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "..\..\AzureFunctionsMSADemo-master\Client\UI\UI.csproj", "{858FCCA7-E773-4B8C-9A85-445A8BD77A51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerQueueOutput", "..\..\AzureFunctionsMSADemo-master\Services\HttpTriggerQueueOutput\HttpTriggerQueueOutput.csproj", "{4EC6F7EB-97A4-44AF-B845-CC41792AF1A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users", "Users\Users.csproj", "{826A68AC-F493-4C3C-B73E-D8977F0E8C5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserTests", "UserTests\UserTests.csproj", "{D1F19EA4-A480-4BC0-B93E-D861AC61AF94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientSetup", "..\..\HttpClientSetup\HttpClientSetup.csproj", "{45C34F51-EFC9-468F-8C76-9C2F91205B26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDBClientSetup", "..\..\CosmosDBClientSetup\CosmosDBClientSetup.csproj", "{E7707460-B698-45E9-8CFA-9CC5839E14B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858FCCA7-E773-4B8C-9A85-445A8BD77A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858FCCA7-E773-4B8C-9A85-445A8BD77A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858FCCA7-E773-4B8C-9A85-445A8BD77A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858FCCA7-E773-4B8C-9A85-445A8BD77A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC6F7EB-97A4-44AF-B845-CC41792AF1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC6F7EB-97A4-44AF-B845-CC41792AF1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC6F7EB-97A4-44AF-B845-CC41792AF1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC6F7EB-97A4-44AF-B845-CC41792AF1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826A68AC-F493-4C3C-B73E-D8977F0E8C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826A68AC-F493-4C3C-B73E-D8977F0E8C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826A68AC-F493-4C3C-B73E-D8977F0E8C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826A68AC-F493-4C3C-B73E-D8977F0E8C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F19EA4-A480-4BC0-B93E-D861AC61AF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F19EA4-A480-4BC0-B93E-D861AC61AF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F19EA4-A480-4BC0-B93E-D861AC61AF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F19EA4-A480-4BC0-B93E-D861AC61AF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C34F51-EFC9-468F-8C76-9C2F91205B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C34F51-EFC9-468F-8C76-9C2F91205B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C34F51-EFC9-468F-8C76-9C2F91205B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C34F51-EFC9-468F-8C76-9C2F91205B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7707460-B698-45E9-8CFA-9CC5839E14B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7707460-B698-45E9-8CFA-9CC5839E14B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7707460-B698-45E9-8CFA-9CC5839E14B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7707460-B698-45E9-8CFA-9CC5839E14B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{858FCCA7-E773-4B8C-9A85-445A8BD77A51} = {AD86DA8B-5713-4DDA-B717-247E1C17E636}
+		{4EC6F7EB-97A4-44AF-B845-CC41792AF1A2} = {ABAE42B9-B3E1-441B-90A2-77F84EBD1A24}
+		{826A68AC-F493-4C3C-B73E-D8977F0E8C5E} = {ABAE42B9-B3E1-441B-90A2-77F84EBD1A24}
+		{D1F19EA4-A480-4BC0-B93E-D861AC61AF94} = {7F5FDBFA-8524-405A-B7D5-8944D0DDC71E}
+		{45C34F51-EFC9-468F-8C76-9C2F91205B26} = {966657AC-1F71-46A2-9DAA-E48ABB893F22}
+		{E7707460-B698-45E9-8CFA-9CC5839E14B6} = {966657AC-1F71-46A2-9DAA-E48ABB893F22}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7386B60D-D238-4059-B941-6706E8BF7E36}
+	EndGlobalSection
+EndGlobal
