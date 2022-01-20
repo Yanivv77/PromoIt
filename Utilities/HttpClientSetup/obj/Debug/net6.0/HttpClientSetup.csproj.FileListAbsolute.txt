@@ -1,0 +1,12 @@
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\bin\Debug\net6.0\HttpClientSetup.deps.json
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\bin\Debug\net6.0\HttpClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\bin\Debug\net6.0\ref\HttpClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\bin\Debug\net6.0\HttpClientSetup.pdb
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\obj\Debug\net6.0\HttpClientSetup.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\obj\Debug\net6.0\HttpClientSetup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\obj\Debug\net6.0\HttpClientSetup.AssemblyInfoInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\obj\Debug\net6.0\HttpClientSetup.AssemblyInfo.cs
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\obj\Debug\net6.0\HttpClientSetup.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\obj\Debug\net6.0\HttpClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\obj\Debug\net6.0\ref\HttpClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\HttpClientSetup\obj\Debug\net6.0\HttpClientSetup.pdb

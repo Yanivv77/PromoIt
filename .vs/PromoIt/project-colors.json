@@ -50,7 +50,17 @@
       "ProjectGuid": "e7707460-b698-45e9-8cfa-9cc5839e14b6",
       "DisplayName": "CosmosDBClientSetup",
       "ColorIndex": 8
+    },
+    "83ea2c43-d7af-4ea5-9515-304721aad100": {
+      "ProjectGuid": "83ea2c43-d7af-4ea5-9515-304721aad100",
+      "DisplayName": "usersTest",
+      "ColorIndex": 9
+    },
+    "7a20a612-8187-469c-8963-64b4acdc3268": {
+      "ProjectGuid": "7a20a612-8187-469c-8963-64b4acdc3268",
+      "DisplayName": "UI",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 11
 }
