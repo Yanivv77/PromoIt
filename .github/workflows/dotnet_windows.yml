@@ -1,9 +1,11 @@
 name: .NET Windows
 
 on:
-  pull_request:
   push:
-    branches: master
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 
 jobs:
   build_and_test:
