@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "7I90VJZlu7X8aOYTdOn9iC//Mfzvdfqf931fkXQsOyCmyNQnoChFfI6AT7cyIfdHG7QhLzt+dbBKW6FG9AHefA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Client\\UI\\UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yaniv\\.nuget\\packages\\microsoft.extensions.apidescription.client\\3.0.0\\microsoft.extensions.apidescription.client.3.0.0.nupkg.sha512",
+    "C:\\Users\\yaniv\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\yaniv\\.nuget\\packages\\nswag.apidescription.client\\13.0.5\\nswag.apidescription.client.13.0.5.nupkg.sha512",
+    "C:\\Users\\yaniv\\.nuget\\packages\\nswag.msbuild\\13.0.5\\nswag.msbuild.13.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

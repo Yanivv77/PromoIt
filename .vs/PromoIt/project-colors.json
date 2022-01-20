@@ -1,5 +1,56 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "d2c6b326-afe6-4140-b305-3e1624914289": {
+      "ProjectGuid": "d2c6b326-afe6-4140-b305-3e1624914289",
+      "DisplayName": "UI",
+      "ColorIndex": 0
+    },
+    "858fcca7-e773-4b8c-9a85-445a8bd77a51": {
+      "ProjectGuid": "858fcca7-e773-4b8c-9a85-445a8bd77a51",
+      "DisplayName": "UI",
+      "ColorIndex": 1
+    },
+    "4ec6f7eb-97a4-44af-b845-cc41792af1a2": {
+      "ProjectGuid": "4ec6f7eb-97a4-44af-b845-cc41792af1a2",
+      "DisplayName": "HttpTriggerQueueOutput",
+      "ColorIndex": 2
+    },
+    "61b9fbee-4be5-4244-8328-5c30ced28104": {
+      "ProjectGuid": "61b9fbee-4be5-4244-8328-5c30ced28104",
+      "DisplayName": "HttpClientSetup",
+      "ColorIndex": 3
+    },
+    "826a68ac-f493-4c3c-b73e-d8977f0e8c5e": {
+      "ProjectGuid": "826a68ac-f493-4c3c-b73e-d8977f0e8c5e",
+      "DisplayName": "Users",
+      "ColorIndex": 4
+    },
+    "d1f19ea4-a480-4bc0-b93e-d861ac61af94": {
+      "ProjectGuid": "d1f19ea4-a480-4bc0-b93e-d861ac61af94",
+      "DisplayName": "UserTests",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "1f869f41-098e-4f24-a582-348f67d4b116": {
+      "ProjectGuid": "1f869f41-098e-4f24-a582-348f67d4b116",
+      "DisplayName": "Devops",
+      "ColorIndex": 6
+    },
+    "45c34f51-efc9-468f-8c76-9c2f91205b26": {
+      "ProjectGuid": "45c34f51-efc9-468f-8c76-9c2f91205b26",
+      "DisplayName": "HttpClientSetup",
+      "ColorIndex": 7
+    },
+    "e7707460-b698-45e9-8cfa-9cc5839e14b6": {
+      "ProjectGuid": "e7707460-b698-45e9-8cfa-9cc5839e14b6",
+      "DisplayName": "CosmosDBClientSetup",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
 }
