@@ -30,7 +30,27 @@
       "ProjectGuid": "d1f19ea4-a480-4bc0-b93e-d861ac61af94",
       "DisplayName": "UserTests",
       "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "1f869f41-098e-4f24-a582-348f67d4b116": {
+      "ProjectGuid": "1f869f41-098e-4f24-a582-348f67d4b116",
+      "DisplayName": "Devops",
+      "ColorIndex": 6
+    },
+    "45c34f51-efc9-468f-8c76-9c2f91205b26": {
+      "ProjectGuid": "45c34f51-efc9-468f-8c76-9c2f91205b26",
+      "DisplayName": "HttpClientSetup",
+      "ColorIndex": 7
+    },
+    "e7707460-b698-45e9-8cfa-9cc5839e14b6": {
+      "ProjectGuid": "e7707460-b698-45e9-8cfa-9cc5839e14b6",
+      "DisplayName": "CosmosDBClientSetup",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 9
 }
