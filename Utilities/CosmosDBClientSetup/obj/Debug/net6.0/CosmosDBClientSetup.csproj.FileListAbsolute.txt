@@ -1,0 +1,14 @@
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\bin\Debug\net6.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\bin\Debug\net6.0\Cosmos.CRTCompat.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\bin\Debug\net6.0\CosmosDBClientSetup.deps.json
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\bin\Debug\net6.0\CosmosDBClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\bin\Debug\net6.0\ref\CosmosDBClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\bin\Debug\net6.0\CosmosDBClientSetup.pdb
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\obj\Debug\net6.0\CosmosDBClientSetup.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\obj\Debug\net6.0\CosmosDBClientSetup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\obj\Debug\net6.0\CosmosDBClientSetup.AssemblyInfoInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\obj\Debug\net6.0\CosmosDBClientSetup.AssemblyInfo.cs
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\obj\Debug\net6.0\CosmosDBClientSetup.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\obj\Debug\net6.0\CosmosDBClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\obj\Debug\net6.0\ref\CosmosDBClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\CosmosDBClientSetup\obj\Debug\net6.0\CosmosDBClientSetup.pdb
