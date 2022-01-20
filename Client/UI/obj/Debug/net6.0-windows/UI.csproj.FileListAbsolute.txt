@@ -17,3 +17,6 @@ C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.dl
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\ref\UI.dll
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.pdb
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.genruntimeconfig.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.Properties.Resources.resources
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\csharp_LoginRegister_Design.Login.resources
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.ProLobbyOwnerForm.resources
