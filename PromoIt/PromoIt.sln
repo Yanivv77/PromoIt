@@ -23,6 +23,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientSetup", "..\..\Ht
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDBClientSetup", "..\..\CosmosDBClientSetup\CosmosDBClientSetup.csproj", "{E7707460-B698-45E9-8CFA-9CC5839E14B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devops", "Devops", "{1F869F41-098E-4F24-A582-348F67D4B116}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		dotnet_windows.yml = dotnet_windows.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
