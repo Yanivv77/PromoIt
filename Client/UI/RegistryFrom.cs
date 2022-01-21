@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class ProLobbyOwnerForm : Form
+    public partial class RegistryFrom : Form
     {
-        public ProLobbyOwnerForm()
+        public RegistryFrom()
         {
             InitializeComponent();
-        }
-
-        private void ProLobbyOwnerForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ProLobbyOwnerForm_Load_1(object sender, EventArgs e)
-        {
-
         }
     }
 }
