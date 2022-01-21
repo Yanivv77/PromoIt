@@ -1,5 +1,4 @@
 name: .NET Windows
-name: .NET Windows
 
 on:
   push:
