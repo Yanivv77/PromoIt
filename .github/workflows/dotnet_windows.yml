@@ -1,11 +1,11 @@
 name: .NET Windows
+name: .NET Windows
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
-
+    branches: [ master ]
 
 jobs:
   build_and_test:
@@ -25,12 +25,24 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
 
+    - name: func 4.x
+      run: npm i azure-functions-core-tools@4 --unsafe-perm true 
+    - name: Build
+      run: dotnet build --no-restore 
+    - name: 'Install Cosmos Emulator'
+      uses: southpolesteve/cosmos-emulator-github-action@v1
+    - name: start Azurite
+      shell: bash
+      run: |
+           cd DevOps
+           npm install -g azurite
+           mkdir azurite
+           azurite  --silent --location azurite &
     - name: Start function apps
       shell: pwsh
       run: |
             $rootDir = $pwd.Path
-           
-            
+
             cd $rootDir/Tests/usersTest
             dotnet test . -c Debug
             
