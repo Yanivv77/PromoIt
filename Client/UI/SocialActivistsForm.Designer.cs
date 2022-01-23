@@ -44,8 +44,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.richTextBox_Campaign = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.richTextBox_Amount = new System.Windows.Forms.RichTextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.button_Donate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_DonatedItems)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -200,9 +198,9 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Location = new System.Drawing.Point(12, 421);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(289, 51);
+            this.label6.Size = new System.Drawing.Size(266, 51);
             this.label6.TabIndex = 41;
-            this.label6.Text = "Donated items";
+            this.label6.Text = "Bought items";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // richTextBox_Campaign
@@ -224,26 +222,6 @@
             this.label7.Size = new System.Drawing.Size(152, 36);
             this.label7.TabIndex = 43;
             this.label7.Text = "Campaign";
-            // 
-            // richTextBox_Amount
-            // 
-            this.richTextBox_Amount.Location = new System.Drawing.Point(170, 683);
-            this.richTextBox_Amount.Name = "richTextBox_Amount";
-            this.richTextBox_Amount.Size = new System.Drawing.Size(150, 30);
-            this.richTextBox_Amount.TabIndex = 46;
-            this.richTextBox_Amount.Text = "";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(13, 678);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(126, 36);
-            this.label8.TabIndex = 45;
-            this.label8.Text = "Amount";
             // 
             // button_Donate
             // 
@@ -269,8 +247,6 @@
             this.BackgroundImage = global::UI.Properties.Resources.twbackgound;
             this.ClientSize = new System.Drawing.Size(885, 796);
             this.Controls.Add(this.button_Donate);
-            this.Controls.Add(this.richTextBox_Amount);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.richTextBox_Campaign);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridView1);
@@ -313,8 +289,6 @@
         private Label label6;
         private RichTextBox richTextBox_Campaign;
         private Label label7;
-        private RichTextBox richTextBox_Amount;
-        private Label label8;
         private Button button_Donate;
     }
 }

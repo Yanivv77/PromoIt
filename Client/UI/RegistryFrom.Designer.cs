@@ -343,6 +343,7 @@
             this.label3.Size = new System.Drawing.Size(122, 21);
             this.label3.TabIndex = 25;
             this.label3.Text = "Activist Account\r\n";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel_NonProfit
             // 
