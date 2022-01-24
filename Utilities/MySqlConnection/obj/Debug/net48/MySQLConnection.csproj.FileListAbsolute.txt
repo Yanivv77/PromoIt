@@ -1,0 +1,5 @@
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net48\MySQLConnection.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net48\MySQLConnection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net48\MySQLConnection.AssemblyInfoInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net48\MySQLConnection.AssemblyInfo.cs
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net48\MySQLConnection.csproj.CoreCompileInputs.cache

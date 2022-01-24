@@ -68,7 +68,7 @@
     },
     "adfc5976-20c5-4d78-a1ba-32c074fd091a": {
       "ProjectGuid": "adfc5976-20c5-4d78-a1ba-32c074fd091a",
-      "DisplayName": "MySqlSetup",
+      "DisplayName": "sqlconnection",
       "ColorIndex": 12
     },
     "1d71f495-2110-4681-aa87-d6bdd882ed30": {
@@ -135,7 +135,22 @@
       "ProjectGuid": "8eab66e0-87b8-43f0-8ed1-1339fca2e953",
       "DisplayName": "SocialNetworksManager",
       "ColorIndex": 9
+    },
+    "12c8c16f-5639-4129-95d2-4e57be5230f9": {
+      "ProjectGuid": "12c8c16f-5639-4129-95d2-4e57be5230f9",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 10
+    },
+    "88e981e6-e300-43db-82c6-9518450ac26f": {
+      "ProjectGuid": "88e981e6-e300-43db-82c6-9518450ac26f",
+      "DisplayName": "MySQLConnection",
+      "ColorIndex": 11
+    },
+    "cfa605dd-ec5e-4a42-b777-1a7f163fb3c4": {
+      "ProjectGuid": "cfa605dd-ec5e-4a42-b777-1a7f163fb3c4",
+      "DisplayName": "WinFormsApp1",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 13
 }
