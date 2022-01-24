@@ -1,0 +1,13 @@
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\bin\Debug\net6.0\MySQLConnection.dll.config
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\bin\Debug\net6.0\MySQLConnection.deps.json
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\bin\Debug\net6.0\MySQLConnection.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\bin\Debug\net6.0\ref\MySQLConnection.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\bin\Debug\net6.0\MySQLConnection.pdb
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net6.0\MySQLConnection.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net6.0\MySQLConnection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net6.0\MySQLConnection.AssemblyInfoInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net6.0\MySQLConnection.AssemblyInfo.cs
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net6.0\MySQLConnection.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net6.0\MySQLConnection.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net6.0\ref\MySQLConnection.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Utilities\MySqlConnection\obj\Debug\net6.0\MySQLConnection.pdb

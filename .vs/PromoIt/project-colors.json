@@ -30,7 +30,127 @@
       "ProjectGuid": "5f02d7b8-e728-47cb-8676-c36fee448242",
       "DisplayName": "CosmosDBClientSetup",
       "ColorIndex": 4
+    },
+    "98777d92-67f0-49e3-8584-93b41b212270": {
+      "ProjectGuid": "98777d92-67f0-49e3-8584-93b41b212270",
+      "DisplayName": "usersTest",
+      "ColorIndex": 5
+    },
+    "f55be64c-cb56-4d13-ae40-9f9039c9be88": {
+      "ProjectGuid": "f55be64c-cb56-4d13-ae40-9f9039c9be88",
+      "DisplayName": "UserManager",
+      "ColorIndex": 6
+    },
+    "966657ac-1f71-46a2-9daa-e48abb893f22": {
+      "ProjectGuid": "966657ac-1f71-46a2-9daa-e48abb893f22",
+      "DisplayName": "Utilities",
+      "ColorIndex": 7
+    },
+    "8019a995-a32a-4a82-a3ce-0330a34d0168": {
+      "ProjectGuid": "8019a995-a32a-4a82-a3ce-0330a34d0168",
+      "DisplayName": "Database1",
+      "ColorIndex": 8
+    },
+    "875b079d-64a3-457d-90b5-40ba82a4f726": {
+      "ProjectGuid": "875b079d-64a3-457d-90b5-40ba82a4f726",
+      "DisplayName": "MySqlSetup",
+      "ColorIndex": 9
+    },
+    "2a6df565-81c3-4aea-a18a-effb8efa17f2": {
+      "ProjectGuid": "2a6df565-81c3-4aea-a18a-effb8efa17f2",
+      "DisplayName": "DataBaseAccessor",
+      "ColorIndex": 10
+    },
+    "445883bc-30f9-41d8-a375-dcea1642a790": {
+      "ProjectGuid": "445883bc-30f9-41d8-a375-dcea1642a790",
+      "DisplayName": "WitterAccessor",
+      "ColorIndex": 11
+    },
+    "adfc5976-20c5-4d78-a1ba-32c074fd091a": {
+      "ProjectGuid": "adfc5976-20c5-4d78-a1ba-32c074fd091a",
+      "DisplayName": "sqlconnection",
+      "ColorIndex": 12
+    },
+    "1d71f495-2110-4681-aa87-d6bdd882ed30": {
+      "ProjectGuid": "1d71f495-2110-4681-aa87-d6bdd882ed30",
+      "DisplayName": "TwitterAccessor",
+      "ColorIndex": 13
+    },
+    "b16bedd0-5d29-448b-a952-ed97f348fcb7": {
+      "ProjectGuid": "b16bedd0-5d29-448b-a952-ed97f348fcb7",
+      "DisplayName": "DataBaseAccessor",
+      "ColorIndex": 14
+    },
+    "132be24b-ca90-4b30-86cd-55c5c25709fc": {
+      "ProjectGuid": "132be24b-ca90-4b30-86cd-55c5c25709fc",
+      "DisplayName": "ReportsEngine",
+      "ColorIndex": 15
+    },
+    "8005a8ab-749b-4665-a85d-b40f2f1c6645": {
+      "ProjectGuid": "8005a8ab-749b-4665-a85d-b40f2f1c6645",
+      "DisplayName": "TwitterEngine",
+      "ColorIndex": 0
+    },
+    "ecb36d18-80b2-448c-a05e-b176dbad0b04": {
+      "ProjectGuid": "ecb36d18-80b2-448c-a05e-b176dbad0b04",
+      "DisplayName": "WitterEngine",
+      "ColorIndex": 1
+    },
+    "f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb": {
+      "ProjectGuid": "f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb",
+      "DisplayName": "BalanceEngine",
+      "ColorIndex": 2
+    },
+    "2c5f247e-5896-48da-bfdf-e9716a54b0be": {
+      "ProjectGuid": "2c5f247e-5896-48da-bfdf-e9716a54b0be",
+      "DisplayName": "CampaignsManager",
+      "ColorIndex": 3
+    },
+    "11d32b0c-7c14-48d7-876d-9d83105be94b": {
+      "ProjectGuid": "11d32b0c-7c14-48d7-876d-9d83105be94b",
+      "DisplayName": "ShopManager",
+      "ColorIndex": 4
+    },
+    "db2fd9ae-ef96-4d85-a539-88389879fd14": {
+      "ProjectGuid": "db2fd9ae-ef96-4d85-a539-88389879fd14",
+      "DisplayName": "ReportsManager",
+      "ColorIndex": 5
+    },
+    "551ad8ac-947c-4791-8302-65cddeb5d6ad": {
+      "ProjectGuid": "551ad8ac-947c-4791-8302-65cddeb5d6ad",
+      "DisplayName": "ReportsManager",
+      "ColorIndex": 6
+    },
+    "152bc8d6-fb73-4ced-94ac-bf5dd484d8a9": {
+      "ProjectGuid": "152bc8d6-fb73-4ced-94ac-bf5dd484d8a9",
+      "DisplayName": "SocialNetworksManager",
+      "ColorIndex": 7
+    },
+    "c50b9cff-cdcf-4cb7-b7a3-b260185f97f5": {
+      "ProjectGuid": "c50b9cff-cdcf-4cb7-b7a3-b260185f97f5",
+      "DisplayName": "HttpClientSetup",
+      "ColorIndex": 8
+    },
+    "8eab66e0-87b8-43f0-8ed1-1339fca2e953": {
+      "ProjectGuid": "8eab66e0-87b8-43f0-8ed1-1339fca2e953",
+      "DisplayName": "SocialNetworksManager",
+      "ColorIndex": 9
+    },
+    "12c8c16f-5639-4129-95d2-4e57be5230f9": {
+      "ProjectGuid": "12c8c16f-5639-4129-95d2-4e57be5230f9",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 10
+    },
+    "88e981e6-e300-43db-82c6-9518450ac26f": {
+      "ProjectGuid": "88e981e6-e300-43db-82c6-9518450ac26f",
+      "DisplayName": "MySQLConnection",
+      "ColorIndex": 11
+    },
+    "cfa605dd-ec5e-4a42-b777-1a7f163fb3c4": {
+      "ProjectGuid": "cfa605dd-ec5e-4a42-b777-1a7f163fb3c4",
+      "DisplayName": "WinFormsApp1",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 13
 }
