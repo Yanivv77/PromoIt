@@ -46,4 +46,8 @@
     <Folder Include="Images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Services\Accessors\DataBaseAccessor\DataBaseAccessor.csproj" />
+  </ItemGroup>
+
 </Project>

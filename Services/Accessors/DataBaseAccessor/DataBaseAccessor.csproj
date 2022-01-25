@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Utilities\MySqlConnection\MySQLConnection.csproj" />
+  </ItemGroup>
+
 </Project>
