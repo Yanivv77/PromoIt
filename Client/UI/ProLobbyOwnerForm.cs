@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DataBaseAccessor;
 
 namespace UI
 {
@@ -15,16 +16,19 @@ namespace UI
         public ProLobbyOwnerForm()
         {
             InitializeComponent();
-        }
-
-        private void ProLobbyOwnerForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ProLobbyOwnerForm_Load_1(object sender, EventArgs e)
-        {
+            dataGridView_Activists.DataSource = Users.AllActivistsTable();
+            dataGridView_NonProfit.DataSource = Users.AlllNonProfitTable();
+            dataGridView_Business.DataSource = Users.AlllBusinessTable();
+            dataGridView_Campaigns.DataSource = Campaigns.AlllCampaignsTable();
+            dataGridView_Tweets.DataSource = Twitter.AllTweetsTable();
 
         }
+        
+
+
+
+
+
+
     }
 }

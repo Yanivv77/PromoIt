@@ -1,0 +1,16 @@
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\bin\Debug\net6.0\DataBaseAccessor.deps.json
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\bin\Debug\net6.0\DataBaseAccessor.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\bin\Debug\net6.0\ref\DataBaseAccessor.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\bin\Debug\net6.0\DataBaseAccessor.pdb
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\bin\Debug\net6.0\MySQLConnection.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\bin\Debug\net6.0\MySQLConnection.pdb
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\bin\Debug\net6.0\MySQLConnection.dll.config
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\DataBaseAccessor.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\DataBaseAccessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\DataBaseAccessor.AssemblyInfoInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\DataBaseAccessor.AssemblyInfo.cs
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\DataBaseAccessor.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\DataBaseAccessor.csproj.CopyComplete
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\DataBaseAccessor.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\ref\DataBaseAccessor.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Services\Accessors\DataBaseAccessor\obj\Debug\net6.0\DataBaseAccessor.pdb

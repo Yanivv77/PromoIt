@@ -19,7 +19,10 @@ namespace MySQLConnection
             //return ConfigurationManager.ConnectionStrings[name].ConnectionString;
 
         }
-
+        public static MySqlDataAdapter Adapter(string selectQuery, string CnnValName)
+        {
+            return new MySqlDataAdapter(selectQuery, CnnVal(CnnValName));
+        }
 
 
         public void openConnection()
@@ -43,8 +46,11 @@ namespace MySQLConnection
             }
         }
 
+        
 
-        public void executeMyQuery(string query)
+
+
+        public static void executeMyQuery(string query)
         {
 
 
@@ -53,7 +59,10 @@ namespace MySQLConnection
 
             try
             {
-                openConnection();
+                if (connection.State == ConnectionState.Closed)
+                {
+                    connection.Open();
+                }
                 var command = new MySqlCommand(query, connection);
 
                 //if (command.executenonquery() == 1)
@@ -70,7 +79,10 @@ namespace MySQLConnection
 
             finally
             {
-                closeConnection();
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
             }
 
 
