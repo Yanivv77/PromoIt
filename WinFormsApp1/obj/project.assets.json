@@ -416,6 +416,19 @@
           }
         }
       },
+      "DataBaseAccessor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MySQLConnection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataBaseAccessor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataBaseAccessor.dll": {}
+        }
+      },
       "MySQLConnection/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1190,6 +1203,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "DataBaseAccessor/1.0.0": {
+      "type": "project",
+      "path": "../Services/Accessors/DataBaseAccessor/DataBaseAccessor.csproj",
+      "msbuildProject": "../Services/Accessors/DataBaseAccessor/DataBaseAccessor.csproj"
+    },
     "MySQLConnection/1.0.0": {
       "type": "project",
       "path": "../Utilities/MySqlConnection/MySQLConnection.csproj",
@@ -1198,7 +1216,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "MySQLConnection >= 1.0.0"
+      "DataBaseAccessor >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1228,8 +1246,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Utilities\\MySqlConnection\\MySQLConnection.csproj": {
-              "projectPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Utilities\\MySqlConnection\\MySQLConnection.csproj"
+            "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Accessors\\DataBaseAccessor\\DataBaseAccessor.csproj": {
+              "projectPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Accessors\\DataBaseAccessor\\DataBaseAccessor.csproj"
             }
           }
         }

@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Utilities\MySqlConnection\MySQLConnection.csproj" />
+    <ProjectReference Include="..\Services\Accessors\DataBaseAccessor\DataBaseAccessor.csproj" />
   </ItemGroup>
 
 </Project>

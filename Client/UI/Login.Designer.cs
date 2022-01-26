@@ -1,4 +1,4 @@
-﻿namespace csharp_LoginRegister_Design
+﻿namespace UI
 {
     partial class Login
     {

@@ -6,6 +6,7 @@ using System.Data;
 using System.Windows;
 
 
+
 namespace MySQLConnection
 {
     public class Connection
@@ -25,7 +26,7 @@ namespace MySQLConnection
         }
 
 
-        public void openConnection()
+        public static void openConnection()
         {
             using MySqlConnection connection = new MySqlConnection(CnnVal("PromoIt"));
 
@@ -36,7 +37,7 @@ namespace MySQLConnection
         }
 
 
-        public void closeConnection()
+        public static void closeConnection()
         {
             using MySqlConnection connection = new MySqlConnection(CnnVal("PromoIt"));
 
@@ -46,16 +47,11 @@ namespace MySQLConnection
             }
         }
 
-        
-
-
 
         public static void executeMyQuery(string query)
         {
-
-
-            using MySqlConnection connection = new MySqlConnection(CnnVal("PromoIt"));
-
+            using MySqlConnection connection = new MySqlConnection(Connection.CnnVal("PromoIt"));
+            MySqlCommand command;
 
             try
             {
@@ -63,17 +59,17 @@ namespace MySQLConnection
                 {
                     connection.Open();
                 }
-                var command = new MySqlCommand(query, connection);
+                command = new MySqlCommand(query, connection);
 
-                //if (command.executenonquery() == 1)
-                //{
-                //    messagebox = "query executed";
-                //}
+                if (command.ExecuteNonQuery() == 1)
+                {
+                    //MessageBox.Show("Query Executed");
+                }
 
-                //else
-                //{
-                //    messagebox = "query not executed";
-                //}
+                else
+                {
+                    //MessageBox.Show("Query Not Executed");
+                }
 
             }
 
@@ -84,9 +80,11 @@ namespace MySQLConnection
                     connection.Close();
                 }
             }
-
-
         }
+
+
+
+
 
     }
 }

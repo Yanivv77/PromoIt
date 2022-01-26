@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace csharp_LoginRegister_Design
+namespace UI
 {
     public partial class Login : Form
     {

@@ -39,3 +39,5 @@ C:\Users\yaniv\OneDrive\Desktop\PromoIt\WinFormsApp1\bin\Debug\net6.0-windows\Mi
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\WinFormsApp1\bin\Debug\net6.0-windows\RockLib.Configuration.dll
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\WinFormsApp1\bin\Debug\net6.0-windows\RockLib.Immutable.dll
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\WinFormsApp1\bin\Debug\net6.0-windows\RockLib.Threading.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\WinFormsApp1\bin\Debug\net6.0-windows\DataBaseAccessor.dll
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\WinFormsApp1\bin\Debug\net6.0-windows\DataBaseAccessor.pdb
