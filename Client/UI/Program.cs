@@ -16,12 +16,12 @@ namespace UI
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Login());
+            Application.Run(new Login());
             //Application.Run(new BusinessCompanyForm());
             //Application.Run(new NonProfitOrganizationForm());
             //Application.Run(new ProLobbyOwnerForm());
             //Application.Run(new SocialActivistsForm());
-            Application.Run(new RegistryFrom());
+            //Application.Run(new RegistryFrom());
 
         }
 

@@ -9,10 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="OpenAPIs\User.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <OpenApiReference Include="OpenAPIs\swagger.json" Namespace="APIDemo" ClassName="Client">
       <CodeGenerator>NSwagCSharp</CodeGenerator>
       <SourceUri>http://localhost:7071/api/swagger.json</SourceUri>
     </OpenApiReference>
+    <OpenApiReference Include="OpenAPIs\User.json" CodeGenerator="NSwagCSharp" Namespace="User" ClassName="UserClient" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,10 +45,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Images\" />
   </ItemGroup>
 
   <ItemGroup>

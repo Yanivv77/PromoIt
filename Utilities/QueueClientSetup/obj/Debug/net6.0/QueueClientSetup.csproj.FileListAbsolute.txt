@@ -1,0 +1,12 @@
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\bin\Debug\net6.0\QueueClientSetup.deps.json
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\bin\Debug\net6.0\QueueClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\bin\Debug\net6.0\ref\QueueClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\bin\Debug\net6.0\QueueClientSetup.pdb
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\obj\Debug\net6.0\QueueClientSetup.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\obj\Debug\net6.0\QueueClientSetup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\obj\Debug\net6.0\QueueClientSetup.AssemblyInfoInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\obj\Debug\net6.0\QueueClientSetup.AssemblyInfo.cs
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\obj\Debug\net6.0\QueueClientSetup.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\obj\Debug\net6.0\QueueClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\obj\Debug\net6.0\ref\QueueClientSetup.dll
+C:\Users\yaniv\OneDrive\Desktop\AzureFunctionsMSADemo-master\Utilities\QueueClientSetup\obj\Debug\net6.0\QueueClientSetup.pdb

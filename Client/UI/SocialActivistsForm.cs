@@ -17,6 +17,6 @@ namespace UI
             InitializeComponent();
         }
 
-        
+       
     }
 }

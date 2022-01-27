@@ -150,7 +150,17 @@
       "ProjectGuid": "cfa605dd-ec5e-4a42-b777-1a7f163fb3c4",
       "DisplayName": "WinFormsApp1",
       "ColorIndex": 12
+    },
+    "b144d670-9355-4f74-9a5e-bd95736c7310": {
+      "ProjectGuid": "b144d670-9355-4f74-9a5e-bd95736c7310",
+      "DisplayName": "QueueClientSetup",
+      "ColorIndex": 13
+    },
+    "cdd77af6-6a47-4b1f-93a5-1c553a83b31a": {
+      "ProjectGuid": "cdd77af6-6a47-4b1f-93a5-1c553a83b31a",
+      "DisplayName": "HttpTriggerQueueOutputTest",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 15
 }

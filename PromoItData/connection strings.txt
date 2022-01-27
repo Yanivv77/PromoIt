@@ -1,0 +1,7 @@
+
+Server=127.0.0.1;Port=3307;Database=PromoIt;Uid=admin;Pwd=admin;
+
+
+https://developer.twitter.com/en/portal/products
+PromoIt77@gmail.com
+promoit77!
