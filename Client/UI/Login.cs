@@ -20,7 +20,7 @@ namespace UI
         public Login()
         {
             InitializeComponent();
-            
+
         }
 
         private void button_NewAccount_Click(object sender, EventArgs e)
@@ -35,10 +35,15 @@ namespace UI
             this.Close();
         }
 
+       
+
         
 
-        private async void button1_Click(object sender, EventArgs e)
+        private async void button_Login_Click(object sender, EventArgs e)
         {
+           // var isSueedded = await _apiAccessor.SendAsync(textBox_Username.Text, textBox_Password.Text);
+            //MessageBox.Show(isSueedded ? "logged in successfully" : "Error sending message", "Result", MessageBoxButtons.OK, isSueedded ? MessageBoxIcon.Information : MessageBoxIcon.Error);
+
             List<string> user = await _apiAccessor.SendAsyncUser(textBox_Username.Text, textBox_Password.Text);
 
             string username = user[0];
@@ -48,7 +53,6 @@ namespace UI
 
             string typeCheck = dataGridView.CurrentRow.Cells[3].Value.ToString();
             string passCheck = dataGridView.CurrentRow.Cells[1].Value.ToString();
-            textBox1.Text = username + " " + password + " " + typeCheck;
 
 
             if (password == passCheck)
@@ -67,7 +71,7 @@ namespace UI
                         this.Hide();
                         NonProfitform.Show();
                         break;
-                       
+
 
                     case "Business":
                         BusinessCompanyForm Businssform = new BusinessCompanyForm(username);
@@ -93,9 +97,7 @@ namespace UI
             {
                 MessageBox.Show("worng input password");
             }
-
-
-
         }
     }
+
 }

@@ -58,6 +58,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerQueueOutputTest"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerQueueOutput", "Services\HttpTriggerQueueOutput\HttpTriggerQueueOutput.csproj", "{ABDE0418-6918-4328-9308-5C50EAF1D32C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27D5920C-0DD6-4224-9906-4D3EE278B26D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
