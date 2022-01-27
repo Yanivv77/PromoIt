@@ -59,17 +59,8 @@ namespace MySQLConnection
                 {
                     connection.Open();
                 }
+
                 command = new MySqlCommand(query, connection);
-
-                if (command.ExecuteNonQuery() == 1)
-                {
-                    //MessageBox.Show("Query Executed");
-                }
-
-                else
-                {
-                    //MessageBox.Show("Query Not Executed");
-                }
 
             }
 
@@ -82,8 +73,15 @@ namespace MySQLConnection
             }
         }
 
+       
+        public string executeFunction(string query )
+        {
+            using MySqlConnection connection = new MySqlConnection(Connection.CnnVal("PromoIt"));
+            MySqlCommand com = new MySqlCommand(query, connection);
 
 
+            return (string)com.ExecuteScalar();
+        }
 
 
     }

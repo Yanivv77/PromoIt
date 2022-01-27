@@ -12,9 +12,11 @@ namespace UI
 {
     public partial class BusinessCompanyForm : Form
     {
-        public BusinessCompanyForm()
+        public BusinessCompanyForm(string name)
         {
+            
             InitializeComponent();
+            UserName.Text = name;
         }
 
 

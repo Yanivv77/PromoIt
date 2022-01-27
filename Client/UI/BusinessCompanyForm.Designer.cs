@@ -196,7 +196,6 @@
             this.button_SendItems.TabIndex = 27;
             this.button_SendItems.Text = "Send Items";
             this.button_SendItems.UseVisualStyleBackColor = false;
-            
             // 
             // label7
             // 
@@ -226,9 +225,9 @@
             this.UserName.BackColor = System.Drawing.Color.Transparent;
             this.UserName.Font = new System.Drawing.Font("Impact", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UserName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.UserName.Location = new System.Drawing.Point(8, 507);
+            this.UserName.Location = new System.Drawing.Point(2, 497);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(160, 42);
+            this.UserName.Size = new System.Drawing.Size(158, 41);
             this.UserName.TabIndex = 30;
             this.UserName.Text = "UserName";
             // 
@@ -257,7 +256,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BusinessCompanyForm";
             this.Text = "BusinessCompanyForm";
-            
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_MyDonations)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

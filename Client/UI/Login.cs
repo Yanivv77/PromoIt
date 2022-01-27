@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DataBaseAccessor;
 
 namespace UI
 {
@@ -19,6 +20,7 @@ namespace UI
         public Login()
         {
             InitializeComponent();
+
         }
 
         private void button_NewAccount_Click(object sender, EventArgs e)
@@ -33,13 +35,69 @@ namespace UI
             this.Close();
         }
 
+       
+
+        
+
         private async void button_Login_Click(object sender, EventArgs e)
         {
-            var s = await _apiAccessor.SendAsyncUsername(textBox_Username.Text, textBox_Password.Text);
+           // var isSueedded = await _apiAccessor.SendAsync(textBox_Username.Text, textBox_Password.Text);
+            //MessageBox.Show(isSueedded ? "logged in successfully" : "Error sending message", "Result", MessageBoxButtons.OK, isSueedded ? MessageBoxIcon.Information : MessageBoxIcon.Error);
 
-            textBox1.Text = s;
+            List<string> user = await _apiAccessor.SendAsyncUser(textBox_Username.Text, textBox_Password.Text);
+
+            string username = user[0];
+            string password = user[1];
+            dataGridView.DataSource = Users.GetTypeInDataTable(username);
 
 
+            string typeCheck = dataGridView.CurrentRow.Cells[3].Value.ToString();
+            string passCheck = dataGridView.CurrentRow.Cells[1].Value.ToString();
+
+
+            if (password == passCheck)
+            {
+
+                switch (typeCheck)
+                {
+                    case "Activist":
+                        SocialActivistsForm Activistform = new SocialActivistsForm(username);
+                        this.Hide();
+                        Activistform.Show();
+                        break;
+
+                    case "NonProfit":
+                        NonProfitOrganizationForm NonProfitform = new NonProfitOrganizationForm(username);
+                        this.Hide();
+                        NonProfitform.Show();
+                        break;
+
+
+                    case "Business":
+                        BusinessCompanyForm Businssform = new BusinessCompanyForm(username);
+                        this.Hide();
+                        Businssform.Show();
+                        break;
+
+                    case "Admin":
+                        ProLobbyOwnerForm Adminform = new ProLobbyOwnerForm(username);
+                        this.Hide();
+                        Adminform.Show();
+                        break;
+
+
+                    default:
+                        MessageBox.Show("worng input type");
+                        break;
+                }
+
+
+            }
+            else
+            {
+                MessageBox.Show("worng input password");
+            }
         }
     }
+
 }

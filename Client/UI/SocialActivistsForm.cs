@@ -12,9 +12,10 @@ namespace UI
 {
     public partial class SocialActivistsForm : Form
     {
-        public SocialActivistsForm()
+        public SocialActivistsForm(string name)
         {
             InitializeComponent();
+            UserName.Text = name;
         }
 
        

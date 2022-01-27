@@ -89,15 +89,5 @@ namespace UI.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap x_png_icon_png_image_327259 {
-            get {
-                object obj = ResourceManager.GetObject("x-png-icon-png-image-327259", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

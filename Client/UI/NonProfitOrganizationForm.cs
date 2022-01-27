@@ -12,9 +12,10 @@ namespace UI
 {
     public partial class NonProfitOrganizationForm : Form
     {
-        public NonProfitOrganizationForm()
+        public NonProfitOrganizationForm(string name)
         {
             InitializeComponent();
+            UserName.Text = name;
         }
     }
 }

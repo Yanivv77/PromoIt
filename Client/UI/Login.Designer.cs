@@ -32,7 +32,6 @@
             this.button_PromoIt = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button_Login = new System.Windows.Forms.Button();
             this.textBox_Password = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox_Username = new System.Windows.Forms.TextBox();
@@ -44,8 +43,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button_NewAccount = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.button_Login = new System.Windows.Forms.Button();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // button_PromoIt
@@ -79,22 +80,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(10, 747);
             this.panel7.TabIndex = 18;
-            // 
-            // button_Login
-            // 
-            this.button_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(161)))), ((int)(((byte)(242)))));
-            this.button_Login.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Login.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_Login.ForeColor = System.Drawing.Color.White;
-            this.button_Login.Location = new System.Drawing.Point(59, 285);
-            this.button_Login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button_Login.Name = "button_Login";
-            this.button_Login.Size = new System.Drawing.Size(444, 68);
-            this.button_Login.TabIndex = 17;
-            this.button_Login.Text = "Login";
-            this.button_Login.UseVisualStyleBackColor = false;
-            this.button_Login.Click += new System.EventHandler(this.button_Login_Click);
             // 
             // textBox_Password
             // 
@@ -212,20 +197,36 @@
             // 
             this.panel8.BackgroundImage = global::UI.Properties.Resources.twimage;
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel8.Location = new System.Drawing.Point(120, 397);
+            this.panel8.Location = new System.Drawing.Point(130, 397);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(321, 237);
             this.panel8.TabIndex = 25;
             // 
-            // textBox1
+            // dataGridView
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(176, 246);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(327, 30);
-            this.textBox1.TabIndex = 26;
-            this.textBox1.UseSystemPasswordChar = true;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Location = new System.Drawing.Point(712, 340);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.RowTemplate.Height = 29;
+            this.dataGridView.Size = new System.Drawing.Size(316, 244);
+            this.dataGridView.TabIndex = 27;
+            // 
+            // button_Login
+            // 
+            this.button_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(161)))), ((int)(((byte)(242)))));
+            this.button_Login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Login.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_Login.ForeColor = System.Drawing.Color.White;
+            this.button_Login.Location = new System.Drawing.Point(57, 284);
+            this.button_Login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_Login.Name = "button_Login";
+            this.button_Login.Size = new System.Drawing.Size(444, 68);
+            this.button_Login.TabIndex = 30;
+            this.button_Login.Text = "Login";
+            this.button_Login.UseVisualStyleBackColor = false;
+            this.button_Login.Click += new System.EventHandler(this.button_Login_Click);
             // 
             // Login
             // 
@@ -233,7 +234,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(581, 737);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button_Login);
+            this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.button_NewAccount);
             this.Controls.Add(this.panel1);
@@ -241,7 +243,6 @@
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.button_Login);
             this.Controls.Add(this.textBox_Password);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox_Username);
@@ -254,6 +255,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form";
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,21 +266,21 @@
 
         private Panel panel3;
         private Panel panel7;
-        private Button button_Login;
         private TextBox textBox_Password;
         private Label label2;
         private TextBox textBox_Username;
         private Label label1;
         private Panel panel4;
         private Panel panel5;
-        private FlowLayoutPanel flowLayoutPanel1;
+    
         private Panel panel6;
         private Panel panel1;
         private Button button_NewAccount;
 
         private Button button_exit;
         private Panel panel8;
-        private TextBox textBox1;
+        private DataGridView dataGridView;
+        private Button button_Login;
     }
 }
 
