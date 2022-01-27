@@ -28,7 +28,8 @@ jobs:
       run: npm i azure-functions-core-tools@4 --unsafe-perm true 
     - name: Build
       run: dotnet build --no-restore 
-
+    - name: 'Install Cosmos Emulator'
+      uses: southpolesteve/cosmos-emulator-github-action@v1
     - name: start Azurite
       shell: bash
       run: |
@@ -40,6 +41,14 @@ jobs:
       shell: pwsh
       run: |
             $rootDir = $pwd.Path
+
+            cd ./Services/HttpTriggerQueueOutput
+            Start-Process -NoNewWindow .\node_modules\azure-functions-core-tools\bin\func.exe -ArgumentList "host","start","--port","7071"
+            Start-Sleep -s 40
+
+            cd $rootDir/Tests/HttpTriggerQueueOutputTest
+            dotnet test . -c Debug
+
 
             cd $rootDir/Tests/usersTest
             dotnet test . -c Debug
