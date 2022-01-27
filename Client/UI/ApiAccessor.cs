@@ -19,9 +19,14 @@ namespace UI
             }
         }
 
-        internal Task SendAsync()
+        public async Task<string> SendAsyncUsername(string username, string password)
         {
-            throw new NotImplementedException();
+
+            string str = new User.User { UserName = username, Password = password }.UserName;
+            await _client.SendAsync(new User.User { UserName = username, Password = password });
+            return str;
+
+
         }
     }
 }
