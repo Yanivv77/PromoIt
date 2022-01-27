@@ -34,6 +34,19 @@ namespace DataBaseAccessor
 
         }
 
+        public static DataTable GetTypeInDataTable(string username )
+
+        {
+            // populate the datagridview
+            string selectQuery = $" DisplyUserTypeByUsername_procedure('{username}'); ";
+            DataTable table = new DataTable();
+            var adapter = Connection.Adapter(selectQuery, "PromoIt");
+            adapter.Fill(table);
+            return table;
+
+        }
+
+
 
 
         public static DataTable AllActivistsTable()

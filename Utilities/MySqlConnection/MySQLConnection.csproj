@@ -12,4 +12,10 @@
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

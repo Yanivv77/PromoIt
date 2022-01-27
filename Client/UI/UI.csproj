@@ -13,11 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <OpenApiReference Include="OpenAPIs\swagger.json" Namespace="APIDemo" ClassName="Client">
-      <CodeGenerator>NSwagCSharp</CodeGenerator>
+    <OpenApiReference Include="OpenAPIs\swagger.json" CodeGenerator="NSwagCSharp" Namespace="APIDemo" ClassName="Client">
       <SourceUri>http://localhost:7071/api/swagger.json</SourceUri>
     </OpenApiReference>
-    <OpenApiReference Include="OpenAPIs\User.json" CodeGenerator="NSwagCSharp" Namespace="User" ClassName="UserClient" />
+    <OpenApiReference Include="OpenAPIs\User.json" ClassName="UserClient" CodeGenerator="NSwagCSharp" Namespace="User" />
   </ItemGroup>
 
   <ItemGroup>

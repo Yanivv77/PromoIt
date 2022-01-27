@@ -160,7 +160,12 @@
       "ProjectGuid": "cdd77af6-6a47-4b1f-93a5-1c553a83b31a",
       "DisplayName": "HttpTriggerQueueOutputTest",
       "ColorIndex": 14
+    },
+    "abde0418-6918-4328-9308-5c50eaf1d32c": {
+      "ProjectGuid": "abde0418-6918-4328-9308-5c50eaf1d32c",
+      "DisplayName": "HttpTriggerQueueOutput",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 0
 }

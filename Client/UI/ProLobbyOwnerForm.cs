@@ -13,9 +13,10 @@ namespace UI
 {
     public partial class ProLobbyOwnerForm : Form
     {
-        public ProLobbyOwnerForm()
+        public ProLobbyOwnerForm(string name)
         {
             InitializeComponent();
+            UserName.Text =name;
             dataGridView_Activists.DataSource = Users.AllActivistsTable();
             dataGridView_NonProfit.DataSource = Users.AlllNonProfitTable();
             dataGridView_Business.DataSource = Users.AlllBusinessTable();

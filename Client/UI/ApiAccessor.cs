@@ -19,14 +19,24 @@ namespace UI
             }
         }
 
-        public async Task<string> SendAsyncUsername(string username, string password)
+       
+
+        public async Task<List<string>> SendAsyncUser(string username, string password)
         {
+            List<string> user = new List<string>();
+            string name = new User.User { UserName = username, Password = password }.UserName;
+            string pass = new User.User { UserName = username, Password = password }.Password;
+            user.Add(name);
+            user.Add(pass);
 
-            string str = new User.User { UserName = username, Password = password }.UserName;
-            await _client.SendAsync(new User.User { UserName = username, Password = password });
-            return str;
 
+            //await _client.SendAsync(new User.User { UserName = username, Password = password });
+
+            return user;
 
         }
+
+
+
     }
 }
