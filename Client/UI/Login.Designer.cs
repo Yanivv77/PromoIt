@@ -1,4 +1,4 @@
-﻿namespace csharp_LoginRegister_Design
+﻿namespace UI
 {
     partial class Login
     {
@@ -39,10 +39,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button_exit = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_NewAccount = new System.Windows.Forms.Button();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -147,6 +148,7 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.button_exit);
             this.panel5.Controls.Add(this.button_PromoIt);
             this.panel5.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.panel5.Location = new System.Drawing.Point(6, 5);
@@ -154,14 +156,24 @@
             this.panel5.Size = new System.Drawing.Size(576, 87);
             this.panel5.TabIndex = 20;
             // 
-            // flowLayoutPanel1
+            // button_exit
             // 
-            this.flowLayoutPanel1.BackgroundImage = global::UI.Properties.Resources.twimage;
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(156, 418);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(273, 243);
-            this.flowLayoutPanel1.TabIndex = 21;
+            this.button_exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.button_exit.BackgroundImage = global::UI.Properties.Resources.x_png;
+            this.button_exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_exit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.button_exit.FlatAppearance.BorderSize = 0;
+            this.button_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_exit.ForeColor = System.Drawing.Color.White;
+            this.button_exit.Location = new System.Drawing.Point(537, 5);
+            this.button_exit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_exit.Name = "button_exit";
+            this.button_exit.Size = new System.Drawing.Size(25, 24);
+            this.button_exit.TabIndex = 26;
+            this.button_exit.UseVisualStyleBackColor = false;
+            this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
             // 
             // panel6
             // 
@@ -179,20 +191,30 @@
             this.panel1.Size = new System.Drawing.Size(582, 10);
             this.panel1.TabIndex = 23;
             // 
-            // button1
+            // button_NewAccount
             // 
-            this.button1.BackColor = System.Drawing.Color.Silver;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(13, 692);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(555, 31);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "New Account";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button_NewAccount.BackColor = System.Drawing.Color.Silver;
+            this.button_NewAccount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_NewAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_NewAccount.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_NewAccount.ForeColor = System.Drawing.Color.Black;
+            this.button_NewAccount.Location = new System.Drawing.Point(13, 692);
+            this.button_NewAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_NewAccount.Name = "button_NewAccount";
+            this.button_NewAccount.Size = new System.Drawing.Size(555, 31);
+            this.button_NewAccount.TabIndex = 24;
+            this.button_NewAccount.Text = "New Account";
+            this.button_NewAccount.UseVisualStyleBackColor = false;
+            this.button_NewAccount.Click += new System.EventHandler(this.button_NewAccount_Click);
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel2.BackgroundImage")));
+            this.flowLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(144, 379);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(273, 243);
+            this.flowLayoutPanel2.TabIndex = 25;
             // 
             // Login
             // 
@@ -200,10 +222,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(581, 737);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.button_NewAccount);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel6);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel5);
@@ -219,7 +241,6 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form";
-            this.Load += new System.EventHandler(this.Login_Load);
             this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -241,7 +262,9 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private Panel panel6;
         private Panel panel1;
-        private Button button1;
+        private Button button_NewAccount;
+        private FlowLayoutPanel flowLayoutPanel2;
+        private Button button_exit;
     }
 }
 

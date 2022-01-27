@@ -201,7 +201,6 @@
             this.label6.Size = new System.Drawing.Size(266, 51);
             this.label6.TabIndex = 41;
             this.label6.Text = "Bought items";
-            
             // 
             // richTextBox_Campaign
             // 
@@ -245,7 +244,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UI.Properties.Resources.twbackgound;
-            this.ClientSize = new System.Drawing.Size(885, 796);
+            this.ClientSize = new System.Drawing.Size(853, 796);
             this.Controls.Add(this.button_Donate);
             this.Controls.Add(this.richTextBox_Campaign);
             this.Controls.Add(this.label7);

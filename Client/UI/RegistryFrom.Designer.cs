@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistryFrom));
-            this.panel_Tweets = new System.Windows.Forms.Panel();
+            this.panel_BusinessBar = new System.Windows.Forms.Panel();
             this.button_Business = new System.Windows.Forms.Button();
-            this.panel_Users = new System.Windows.Forms.Panel();
-            this.panel_Campaigns = new System.Windows.Forms.Panel();
+            this.panel_NonProfitBar = new System.Windows.Forms.Panel();
+            this.panel_ActivistBar = new System.Windows.Forms.Panel();
             this.button_NonProfit = new System.Windows.Forms.Button();
             this.button_Activist = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_Activist = new System.Windows.Forms.Panel();
+            this.button_ASignIn = new System.Windows.Forms.Button();
             this.textBox_Adress = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.button_ASingIn = new System.Windows.Forms.Button();
             this.textBox_ATwitter = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox_APhone = new System.Windows.Forms.TextBox();
@@ -52,9 +52,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel_NonProfit = new System.Windows.Forms.Panel();
+            this.button_NSignIn = new System.Windows.Forms.Button();
             this.textBox_NEmail = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button_NSingIn = new System.Windows.Forms.Button();
             this.textBox_NWebsite = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox_NName = new System.Windows.Forms.TextBox();
@@ -72,20 +72,25 @@
             this.label17 = new System.Windows.Forms.Label();
             this.textBox_BName = new System.Windows.Forms.TextBox();
             this.panel_Business = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_BSignIn = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button_Back = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel_Activist.SuspendLayout();
             this.panel_NonProfit.SuspendLayout();
             this.panel_Business.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel_Tweets
+            // panel_BusinessBar
             // 
-            this.panel_Tweets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.panel_Tweets.Location = new System.Drawing.Point(13, 360);
-            this.panel_Tweets.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel_Tweets.Name = "panel_Tweets";
-            this.panel_Tweets.Size = new System.Drawing.Size(273, 10);
-            this.panel_Tweets.TabIndex = 19;
+            this.panel_BusinessBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel_BusinessBar.Location = new System.Drawing.Point(13, 360);
+            this.panel_BusinessBar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel_BusinessBar.Name = "panel_BusinessBar";
+            this.panel_BusinessBar.Size = new System.Drawing.Size(273, 10);
+            this.panel_BusinessBar.TabIndex = 19;
             // 
             // button_Business
             // 
@@ -103,24 +108,25 @@
             this.button_Business.TabIndex = 18;
             this.button_Business.Text = "Business";
             this.button_Business.UseVisualStyleBackColor = false;
+            this.button_Business.Click += new System.EventHandler(this.button_Business_Click);
             // 
-            // panel_Users
+            // panel_NonProfitBar
             // 
-            this.panel_Users.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.panel_Users.Location = new System.Drawing.Point(13, 258);
-            this.panel_Users.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel_Users.Name = "panel_Users";
-            this.panel_Users.Size = new System.Drawing.Size(273, 10);
-            this.panel_Users.TabIndex = 17;
+            this.panel_NonProfitBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel_NonProfitBar.Location = new System.Drawing.Point(13, 258);
+            this.panel_NonProfitBar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel_NonProfitBar.Name = "panel_NonProfitBar";
+            this.panel_NonProfitBar.Size = new System.Drawing.Size(273, 10);
+            this.panel_NonProfitBar.TabIndex = 17;
             // 
-            // panel_Campaigns
+            // panel_ActivistBar
             // 
-            this.panel_Campaigns.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.panel_Campaigns.Location = new System.Drawing.Point(13, 158);
-            this.panel_Campaigns.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel_Campaigns.Name = "panel_Campaigns";
-            this.panel_Campaigns.Size = new System.Drawing.Size(273, 10);
-            this.panel_Campaigns.TabIndex = 15;
+            this.panel_ActivistBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel_ActivistBar.Location = new System.Drawing.Point(13, 158);
+            this.panel_ActivistBar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel_ActivistBar.Name = "panel_ActivistBar";
+            this.panel_ActivistBar.Size = new System.Drawing.Size(273, 10);
+            this.panel_ActivistBar.TabIndex = 15;
             // 
             // button_NonProfit
             // 
@@ -138,6 +144,7 @@
             this.button_NonProfit.TabIndex = 16;
             this.button_NonProfit.Text = "NonProfit ";
             this.button_NonProfit.UseVisualStyleBackColor = false;
+            this.button_NonProfit.Click += new System.EventHandler(this.button_NonProfit_Click);
             // 
             // button_Activist
             // 
@@ -155,6 +162,7 @@
             this.button_Activist.TabIndex = 14;
             this.button_Activist.Text = "Activist";
             this.button_Activist.UseVisualStyleBackColor = false;
+            this.button_Activist.Click += new System.EventHandler(this.button_Activist_Click);
             // 
             // label1
             // 
@@ -171,9 +179,9 @@
             // panel_Activist
             // 
             this.panel_Activist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel_Activist.Controls.Add(this.button_ASignIn);
             this.panel_Activist.Controls.Add(this.textBox_Adress);
             this.panel_Activist.Controls.Add(this.label8);
-            this.panel_Activist.Controls.Add(this.button_ASingIn);
             this.panel_Activist.Controls.Add(this.textBox_ATwitter);
             this.panel_Activist.Controls.Add(this.label7);
             this.panel_Activist.Controls.Add(this.textBox_APhone);
@@ -185,10 +193,26 @@
             this.panel_Activist.Controls.Add(this.textBox_AUsername);
             this.panel_Activist.Controls.Add(this.label4);
             this.panel_Activist.Controls.Add(this.label3);
-            this.panel_Activist.Location = new System.Drawing.Point(360, 81);
+            this.panel_Activist.Location = new System.Drawing.Point(320, 81);
             this.panel_Activist.Name = "panel_Activist";
             this.panel_Activist.Size = new System.Drawing.Size(346, 403);
             this.panel_Activist.TabIndex = 23;
+            // 
+            // button_ASignIn
+            // 
+            this.button_ASignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(161)))), ((int)(((byte)(242)))));
+            this.button_ASignIn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_ASignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_ASignIn.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_ASignIn.ForeColor = System.Drawing.Color.White;
+            this.button_ASignIn.Location = new System.Drawing.Point(37, 335);
+            this.button_ASignIn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_ASignIn.Name = "button_ASignIn";
+            this.button_ASignIn.Size = new System.Drawing.Size(281, 42);
+            this.button_ASignIn.TabIndex = 40;
+            this.button_ASignIn.Text = "Sign in";
+            this.button_ASignIn.UseVisualStyleBackColor = false;
+            this.button_ASignIn.Click += new System.EventHandler(this.button_ASignIn_Click);
             // 
             // textBox_Adress
             // 
@@ -210,21 +234,6 @@
             this.label8.Size = new System.Drawing.Size(80, 25);
             this.label8.TabIndex = 37;
             this.label8.Text = "Adress:";
-            // 
-            // button_ASingIn
-            // 
-            this.button_ASingIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(161)))), ((int)(((byte)(242)))));
-            this.button_ASingIn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_ASingIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_ASingIn.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_ASingIn.ForeColor = System.Drawing.Color.White;
-            this.button_ASingIn.Location = new System.Drawing.Point(27, 335);
-            this.button_ASingIn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button_ASingIn.Name = "button_ASingIn";
-            this.button_ASingIn.Size = new System.Drawing.Size(281, 42);
-            this.button_ASingIn.TabIndex = 36;
-            this.button_ASingIn.Text = "Sign in";
-            this.button_ASingIn.UseVisualStyleBackColor = false;
             // 
             // textBox_ATwitter
             // 
@@ -343,14 +352,13 @@
             this.label3.Size = new System.Drawing.Size(122, 21);
             this.label3.TabIndex = 25;
             this.label3.Text = "Activist Account\r\n";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel_NonProfit
             // 
             this.panel_NonProfit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel_NonProfit.Controls.Add(this.button_NSignIn);
             this.panel_NonProfit.Controls.Add(this.textBox_NEmail);
             this.panel_NonProfit.Controls.Add(this.label9);
-            this.panel_NonProfit.Controls.Add(this.button_NSingIn);
             this.panel_NonProfit.Controls.Add(this.textBox_NWebsite);
             this.panel_NonProfit.Controls.Add(this.label11);
             this.panel_NonProfit.Controls.Add(this.textBox_NName);
@@ -360,10 +368,26 @@
             this.panel_NonProfit.Controls.Add(this.textBox_NUsername);
             this.panel_NonProfit.Controls.Add(this.label14);
             this.panel_NonProfit.Controls.Add(this.label15);
-            this.panel_NonProfit.Location = new System.Drawing.Point(729, 81);
+            this.panel_NonProfit.Location = new System.Drawing.Point(320, 81);
             this.panel_NonProfit.Name = "panel_NonProfit";
             this.panel_NonProfit.Size = new System.Drawing.Size(346, 403);
             this.panel_NonProfit.TabIndex = 39;
+            // 
+            // button_NSignIn
+            // 
+            this.button_NSignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(161)))), ((int)(((byte)(242)))));
+            this.button_NSignIn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_NSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_NSignIn.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_NSignIn.ForeColor = System.Drawing.Color.White;
+            this.button_NSignIn.Location = new System.Drawing.Point(30, 327);
+            this.button_NSignIn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_NSignIn.Name = "button_NSignIn";
+            this.button_NSignIn.Size = new System.Drawing.Size(281, 42);
+            this.button_NSignIn.TabIndex = 39;
+            this.button_NSignIn.Text = "Sign in";
+            this.button_NSignIn.UseVisualStyleBackColor = false;
+            this.button_NSignIn.Click += new System.EventHandler(this.button_NSignIn_Click);
             // 
             // textBox_NEmail
             // 
@@ -385,21 +409,6 @@
             this.label9.Size = new System.Drawing.Size(66, 25);
             this.label9.TabIndex = 37;
             this.label9.Text = "Email:";
-            // 
-            // button_NSingIn
-            // 
-            this.button_NSingIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(161)))), ((int)(((byte)(242)))));
-            this.button_NSingIn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_NSingIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_NSingIn.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button_NSingIn.ForeColor = System.Drawing.Color.White;
-            this.button_NSingIn.Location = new System.Drawing.Point(27, 335);
-            this.button_NSingIn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button_NSingIn.Name = "button_NSingIn";
-            this.button_NSingIn.Size = new System.Drawing.Size(281, 42);
-            this.button_NSingIn.TabIndex = 36;
-            this.button_NSingIn.Text = "Sign in";
-            this.button_NSingIn.UseVisualStyleBackColor = false;
             // 
             // textBox_NWebsite
             // 
@@ -577,7 +586,7 @@
             // panel_Business
             // 
             this.panel_Business.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.panel_Business.Controls.Add(this.button1);
+            this.panel_Business.Controls.Add(this.button_BSignIn);
             this.panel_Business.Controls.Add(this.textBox_BName);
             this.panel_Business.Controls.Add(this.label17);
             this.panel_Business.Controls.Add(this.textBox_BPassword);
@@ -585,40 +594,89 @@
             this.panel_Business.Controls.Add(this.textBox_BUsername);
             this.panel_Business.Controls.Add(this.label19);
             this.panel_Business.Controls.Add(this.label20);
-            this.panel_Business.Location = new System.Drawing.Point(1099, 81);
+            this.panel_Business.Location = new System.Drawing.Point(319, 83);
             this.panel_Business.Name = "panel_Business";
             this.panel_Business.Size = new System.Drawing.Size(346, 403);
             this.panel_Business.TabIndex = 40;
             // 
-            // button1
+            // button_BSignIn
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(161)))), ((int)(((byte)(242)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(27, 335);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(281, 42);
-            this.button1.TabIndex = 36;
-            this.button1.Text = "Sign in";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button_BSignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(161)))), ((int)(((byte)(242)))));
+            this.button_BSignIn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_BSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_BSignIn.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_BSignIn.ForeColor = System.Drawing.Color.White;
+            this.button_BSignIn.Location = new System.Drawing.Point(36, 333);
+            this.button_BSignIn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_BSignIn.Name = "button_BSignIn";
+            this.button_BSignIn.Size = new System.Drawing.Size(281, 42);
+            this.button_BSignIn.TabIndex = 48;
+            this.button_BSignIn.Text = "Sign in";
+            this.button_BSignIn.UseVisualStyleBackColor = false;
+            this.button_BSignIn.Click += new System.EventHandler(this.button_BSignIn_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel1.Location = new System.Drawing.Point(9, 494);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(185, 10);
+            this.panel1.TabIndex = 46;
+            // 
+            // button_Back
+            // 
+            this.button_Back.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.button_Back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Back.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.button_Back.FlatAppearance.BorderSize = 0;
+            this.button_Back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Back.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_Back.ForeColor = System.Drawing.Color.White;
+            this.button_Back.Location = new System.Drawing.Point(9, 459);
+            this.button_Back.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button_Back.Name = "button_Back";
+            this.button_Back.Size = new System.Drawing.Size(185, 43);
+            this.button_Back.TabIndex = 45;
+            this.button_Back.Text = "Back";
+            this.button_Back.UseVisualStyleBackColor = false;
+            this.button_Back.Click += new System.EventHandler(this.button_Back_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Location = new System.Drawing.Point(316, 83);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(346, 403);
+            this.panel2.TabIndex = 47;
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::UI.Properties.Resources.twimage;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(48, 120);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(250, 171);
+            this.panel3.TabIndex = 0;
             // 
             // RegistryFrom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UI.Properties.Resources.twbackgound;
-            this.ClientSize = new System.Drawing.Size(1465, 513);
+            this.ClientSize = new System.Drawing.Size(699, 513);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel_Business);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel_NonProfit);
+            this.Controls.Add(this.button_Back);
             this.Controls.Add(this.panel_Activist);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel_Tweets);
+            this.Controls.Add(this.panel_BusinessBar);
             this.Controls.Add(this.button_Business);
-            this.Controls.Add(this.panel_Users);
-            this.Controls.Add(this.panel_Campaigns);
+            this.Controls.Add(this.panel_NonProfitBar);
+            this.Controls.Add(this.panel_ActivistBar);
             this.Controls.Add(this.button_NonProfit);
             this.Controls.Add(this.button_Activist);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -630,6 +688,7 @@
             this.panel_NonProfit.PerformLayout();
             this.panel_Business.ResumeLayout(false);
             this.panel_Business.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -637,10 +696,10 @@
 
         #endregion
 
-        private Panel panel_Tweets;
+        private Panel panel_BusinessBar;
         private Button button_Business;
-        private Panel panel_Users;
-        private Panel panel_Campaigns;
+        private Panel panel_NonProfitBar;
+        private Panel panel_ActivistBar;
         private Button button_NonProfit;
         private Button button_Activist;
         private Label label1;
@@ -656,13 +715,11 @@
         private Label label2;
         private TextBox textBox_AUsername;
         private Label label4;
-        private Button button_ASingIn;
         private TextBox textBox_Adress;
         private Label label8;
         private Panel panel_NonProfit;
         private TextBox textBox_NEmail;
         private Label label9;
-        private Button button_NSingIn;
         private TextBox textBox_NWebsite;
         private Label label11;
         private TextBox textBox_NName;
@@ -680,6 +737,12 @@
         private Label label17;
         private TextBox textBox_BName;
         private Panel panel_Business;
-        private Button button1;
+        private Panel panel1;
+        private Button button_Back;
+        private Panel panel2;
+        private Panel panel3;
+        private Button button_ASignIn;
+        private Button button_NSignIn;
+        private Button button_BSignIn;
     }
 }

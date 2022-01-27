@@ -121,7 +121,19 @@
   <data name="twimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\twimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="twittermage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twittermage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="twbackgound" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\twbackgound.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x-png-icon-png-image-327259" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x-png-icon-png-image-327259.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twittermage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twittermage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

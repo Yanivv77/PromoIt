@@ -42,6 +42,14 @@ jobs:
       run: |
             $rootDir = $pwd.Path
 
+            cd ./Services/HttpTriggerQueueOutput
+            Start-Process -NoNewWindow .\node_modules\azure-functions-core-tools\bin\func.exe -ArgumentList "host","start","--port","7071"
+            Start-Sleep -s 40
+
+            cd $rootDir/Tests/HttpTriggerQueueOutputTest
+            dotnet test . -c Debug
+
+
             cd $rootDir/Tests/usersTest
             dotnet test . -c Debug
             

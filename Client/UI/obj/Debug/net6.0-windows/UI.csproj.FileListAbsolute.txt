@@ -17,7 +17,6 @@ C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\ref\U
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.pdb
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.genruntimeconfig.cache
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.Properties.Resources.resources
-C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\csharp_LoginRegister_Design.Login.resources
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.ProLobbyOwnerForm.resources
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.BusinessCompanyForm.resources
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.NonProfitOrganizationForm.resources
@@ -48,3 +47,4 @@ C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\bin\Debug\net6.0-windows\MySQL
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\bin\Debug\net6.0-windows\DataBaseAccessor.pdb
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\bin\Debug\net6.0-windows\MySQLConnection.pdb
 C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\bin\Debug\net6.0-windows\MySQLConnection.dll.config
+C:\Users\yaniv\OneDrive\Desktop\PromoIt\Client\UI\obj\Debug\net6.0-windows\UI.Login.resources
