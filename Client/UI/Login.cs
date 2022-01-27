@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,8 +35,11 @@ namespace UI
 
         private async void button_Login_Click(object sender, EventArgs e)
         {
-            var isSueedded = await _apiAccessor.SendAsync(textBox_Username.Text, textBox_Password.Text);
-            MessageBox.Show(isSueedded ? "Message was sent" : "Error sending message", "Result", MessageBoxButtons.OK, isSueedded ? MessageBoxIcon.Information : MessageBoxIcon.Error);
+            var s = await _apiAccessor.SendAsyncUsername(textBox_Username.Text, textBox_Password.Text);
+
+            textBox1.Text = s;
+
+
         }
     }
 }

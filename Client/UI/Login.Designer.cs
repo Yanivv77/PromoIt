@@ -43,7 +43,8 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button_NewAccount = new System.Windows.Forms.Button();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -207,14 +208,24 @@
             this.button_NewAccount.UseVisualStyleBackColor = false;
             this.button_NewAccount.Click += new System.EventHandler(this.button_NewAccount_Click);
             // 
-            // flowLayoutPanel2
+            // panel8
             // 
-            this.flowLayoutPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel2.BackgroundImage")));
-            this.flowLayoutPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(144, 379);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(273, 243);
-            this.flowLayoutPanel2.TabIndex = 25;
+            this.panel8.BackgroundImage = global::UI.Properties.Resources.twimage;
+            this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel8.Location = new System.Drawing.Point(120, 397);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(321, 237);
+            this.panel8.TabIndex = 25;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Location = new System.Drawing.Point(176, 246);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(327, 30);
+            this.textBox1.TabIndex = 26;
+            this.textBox1.UseSystemPasswordChar = true;
             // 
             // Login
             // 
@@ -222,7 +233,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(581, 737);
-            this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.panel8);
             this.Controls.Add(this.button_NewAccount);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel6);
@@ -263,8 +275,10 @@
         private Panel panel6;
         private Panel panel1;
         private Button button_NewAccount;
-        private FlowLayoutPanel flowLayoutPanel2;
+
         private Button button_exit;
+        private Panel panel8;
+        private TextBox textBox1;
     }
 }
 

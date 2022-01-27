@@ -18,6 +18,9 @@ namespace User
     public partial class UserClient 
     {
         private string _baseUrl = "http://localhost:7071/api";
+
+     
+
         private System.Net.Http.HttpClient _httpClient;
         private System.Lazy<Newtonsoft.Json.JsonSerializerSettings> _settings;
     
