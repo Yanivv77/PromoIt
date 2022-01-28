@@ -15,23 +15,23 @@ to send http request we use OpenAPI with Swagger in Azure functions that send in
 we divided the services to several responsibilities that every service responsibleto a specific component in the system
 
 ## Main components that implemented and Works in the project 
-MySQL in a docker container
-CI pipeline In Github actions 
-IDesign method - Accessors Layer Engines Layer and Business Logic Layer
-Azure functions
-http request we use OpenAPI with Swagger
-Http Trigger Queue (from Alon's project)
-Http Trigger Queue test (from Alon's project)
-User Registration
-User Service - users login
-Shop Service - donate items and order items
-Campaign Service
-Winform User interface
+* MySQL in a docker container
+* CI pipeline In Github actions 
+* IDesign method - Accessors Layer Engines Layer and Business Logic Layer
+* Azure functions
+* http request we use OpenAPI with Swagger
+* Http Trigger Queue (from Alon's project)
+* Http Trigger Queue test (from Alon's project)
+* User Registration
+* User Service - users login
+* Shop Service - donate items and order items
+* Campaign Service
+* Winform User interface
 
 ## Main components that Not implemented yet
-User Balance engine 
-Twitter API Service (has suspended few times)
-Unit Tests
+* User Balance engine 
+* Twitter API Service (has suspended few times)
+* Unit Tests
 
 
 
