@@ -1,6 +1,6 @@
 # PromoIt Thoar and Yaniv Project for Zionet
 
-## poject overview
+## Poject overview
 System that promotes social campaigns in Twitter
 Main functions of the system :
 * Nonprofit Organization can open campaigns with url and hashtage they want to promote
@@ -8,7 +8,7 @@ Main functions of the system :
 * Activists can specific campaigns by tweet the campaigns hashtage and get thier tweet shared for every tweet that promotes a campaign activists will gain a currency
 * SystemOwners will get report about all the user in system all items sent and all that tweets that promotes a campaign
 
-## how we implemented a project
+## How we implemented a project
 to implemented the project we used IDesign method to create a services with 3 layers Accessors Layer Engines Layer and Business Logic Layer 
 we used MySQL for a database that we run in docker container so we can easily later upload it to Azure 
 to send http request we use OpenAPI with Swagger in Azure functions that send in a queue to the user interface
