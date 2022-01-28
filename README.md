@@ -3,10 +3,10 @@
 ## poject overview
 System that promotes social campaigns in Twitter
 Main functions of the system :
-Nonprofit Organization can open campaigns with url and hashtage they want to promote
-Business can donate items for specific campaigns to to encourage activists to promote the campaigns to gain a currency for them to buy the items
-Activists can specific campaigns by tweet the campaigns hashtage and get thier tweet shared for every tweet that promotes a campaign activists will gain a currency
-SystemOwners will get report about all the user in system all items sent and all that tweets that promotes a campaign
+* Nonprofit Organization can open campaigns with url and hashtage they want to promote
+* Business can donate items for specific campaigns to to encourage activists to promote the campaigns to gain a currency for them to buy the items
+* Activists can specific campaigns by tweet the campaigns hashtage and get thier tweet shared for every tweet that promotes a campaign activists will gain a currency
+* SystemOwners will get report about all the user in system all items sent and all that tweets that promotes a campaign
 
 ## how we implemented a project
 to implemented the project we used IDesign method to create a services with 3 layers Accessors Layer Engines Layer and Business Logic Layer 
