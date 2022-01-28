@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\WitterEngine.csproj",
-      "projectName": "WitterEngine",
-      "projectPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\WitterEngine.csproj",
+      "projectUniqueName": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\TwitterEngine.csproj",
+      "projectName": "TwitterEngine",
+      "projectPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\TwitterEngine.csproj",
       "packagesPath": "C:\\Users\\yaniv\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\obj\\",
       "projectStyle": "PackageReference",

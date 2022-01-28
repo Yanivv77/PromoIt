@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\usersTest.csproj": {}
+    "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\UsersTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\usersTest.csproj": {
+    "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\UsersTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\usersTest.csproj",
-        "projectName": "usersTest",
-        "projectPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\usersTest.csproj",
+        "projectUniqueName": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\UsersTest.csproj",
+        "projectName": "UsersTest",
+        "projectPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\UsersTest.csproj",
         "packagesPath": "C:\\Users\\yaniv\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\obj\\",
         "projectStyle": "PackageReference",

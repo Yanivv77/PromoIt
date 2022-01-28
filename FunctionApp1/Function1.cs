@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 
-namespace ShopManager
+namespace FunctionApp1
 {
     public class Function1
     {
