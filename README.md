@@ -31,7 +31,7 @@ we divided the services to several responsibilities that every service responsib
 ## Main components that Not implemented yet
 * User Balance engine 
 * Ilogger
-* Twitter API Service (has suspended few times)
+* Twitter API Service (have suspended few times)
 * Unit Tests
 
 
