@@ -11,8 +11,8 @@ SystemOwners will get report about all the user in system all items sent and all
 ## how we implemented a project
 to implemented the project we used IDesign method to create a services with 3 layers Accessors Layer Engines Layer and Business Logic Layer 
 we used MySQL for a database that we run in docker container so we can easily later upload it to Azure 
-to send http request we use OpenAPI with Swagger in Azure functions that send in a queue to the userinterface
-we divided the services to several responsibilities that every service responsibleto a specific component in the system
+to send http request we use OpenAPI with Swagger in Azure functions that send in a queue to the user interface
+we divided the services to responsibilities that every service responsibleto a specific component in the system
 
 ## Main components that implemented and Works in the project 
 * MySQL in a docker container
