@@ -2,15 +2,15 @@ version: '3.4'
 
 services:
 
-  azurite:
-    image: mcr.microsoft.com/azure-storage/azurite
-    hostname: azurite
-    command: "azurite-queue --queueHost 0.0.0.0 --loose --skipApiVersionCheck -d /tmp/azurite_debug.log"
-    ports:
-     - "10000:10000"
-     - "10001:10001"
-    volumes:
-     - ./data/azurite:/data
+  #azurite:
+  #  image: mcr.microsoft.com/azure-storage/azurite
+  #  hostname: azurite
+  #  command: "azurite-queue --queueHost 0.0.0.0 --loose --skipApiVersionCheck -d /tmp/azurite_debug.log"
+  #  ports:
+  #   - "10000:10000"
+  #   - "10001:10001"
+  #  volumes:
+  #   - ./data/azurite:/data
 
   # cosmosdb:
   #   container_name: cosmosdb
@@ -60,5 +60,4 @@ services:
 
   
 volumes: 
-  vol_cosmos:
   mysql:

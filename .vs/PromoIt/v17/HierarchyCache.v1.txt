@@ -1,0 +1,508 @@
+﻿++Solution 'PromoIt' ‎(16 of 16 projects)
+++Devops
+i:{00000000-0000-0000-0000-000000000000}:Devops
+++docker-compose.yml
+i:{1f869f41-098e-4f24-a582-348f67d4b116}:C:\Users\yaniv\OneDrive\Desktop\PromoIt\Devops\docker-compose.yml
+++dotnet_windows.yml
+i:{1f869f41-098e-4f24-a582-348f67d4b116}:C:\Users\yaniv\OneDrive\Desktop\PromoIt\Devops\dotnet_windows.yml
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++.editorconfig
+i:{27d5920c-0dd6-4224-9906-4d3ee278b26d}:C:\Users\yaniv\OneDrive\Desktop\PromoIt\.editorconfig
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\.editorconfig
+++Client
+i:{00000000-0000-0000-0000-000000000000}:Client
+++UI
+i:{ad86da8b-5713-4dda-b717-247e1c17e636}:UI
+++Dependencies
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:>2468
+i:{98777d92-67f0-49e3-8584-93b41b212270}:>2322
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>4108
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:>2321
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:>3346
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:>4643
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:>5326
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:>2319
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:>2325
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:>3274
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:>5724
+i:{1d71f495-2110-4681-aa87-d6bdd882ed30}:>2326
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:>2423
+i:{ecb36d18-80b2-448c-a05e-b176dbad0b04}:>2467
+i:{f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb}:>2320
+++Properties
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\properties\
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\properties\
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\properties\
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\properties\
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\properties\
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\properties\
+++images
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\images\
+++OpenAPIs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\openapis\
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\openapis\
+++Campaign.json
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\openapis\campaign.json
+++Shop.json
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\openapis\shop.json
+++swagger.json
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\openapis\swagger.json
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\openapis\swagger.json
+++User.json
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\openapis\user.json
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\openapis\user.json
+++Resources
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\resources\
+++twbackgound.jpg
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\resources\twbackgound.jpg
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\images\twbackgound.jpg
+++Twitterico.ico
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\resources\twitterico.ico
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\images\twitterico.ico
+++twittermage.png
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\resources\twittermage.png
+++x-png.png
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\resources\x-png.png
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\images\x-png.png
+++x-png-icon-png-image-327259.jpg
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\resources\x-png-icon-png-image-327259.jpg
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\images\x-png-icon-png-image-327259.jpg
+++ApiAccessor.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\apiaccessor.cs
+++BusinessCompanyForm.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\businesscompanyform.cs
+++Login.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\login.cs
+++NonProfitOrganizationForm.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\nonprofitorganizationform.cs
+++Program.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\program.cs
+++ProLobbyOwnerForm.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\prolobbyownerform.cs
+++RegistryFrom.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\registryfrom.cs
+++SocialActivistsForm.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\socialactivistsform.cs
+++Analyzers
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:analyzers
+i:{98777d92-67f0-49e3-8584-93b41b212270}:analyzers
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:analyzers
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:analyzers
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:analyzers
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:analyzers
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:analyzers
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:analyzers
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:analyzers
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:analyzers
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:analyzers
+i:{1d71f495-2110-4681-aa87-d6bdd882ed30}:analyzers
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:analyzers
+i:{ecb36d18-80b2-448c-a05e-b176dbad0b04}:analyzers
+i:{f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb}:analyzers
+++Frameworks
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:frameworks
+i:{98777d92-67f0-49e3-8584-93b41b212270}:frameworks
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:frameworks
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:frameworks
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:frameworks
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:frameworks
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:frameworks
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:frameworks
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:frameworks
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:frameworks
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:frameworks
+i:{1d71f495-2110-4681-aa87-d6bdd882ed30}:frameworks
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:frameworks
+i:{ecb36d18-80b2-448c-a05e-b176dbad0b04}:frameworks
+i:{f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb}:frameworks
+++Packages
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:packages
+i:{98777d92-67f0-49e3-8584-93b41b212270}:packages
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:packages
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:packages
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:packages
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:packages
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:packages
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:packages
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:packages
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:packages
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:packages
+++Projects
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:projects
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:projects
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:projects
+++Resources.resx
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\properties\resources.resx
+++twimage.png
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\images\twimage.png
+++BusinessCompanyForm.Designer.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\businesscompanyform.designer.cs
+++BusinessCompanyForm.resx
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\businesscompanyform.resx
+++Login.Designer.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\login.designer.cs
+++Login.resx
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\login.resx
+++NonProfitOrganizationForm.Designer.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\nonprofitorganizationform.designer.cs
+++NonProfitOrganizationForm.resx
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\nonprofitorganizationform.resx
+++ProLobbyOwnerForm.Designer.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\prolobbyownerform.designer.cs
+++ProLobbyOwnerForm.resx
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\prolobbyownerform.resx
+++RegistryFrom.Designer.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\registryfrom.designer.cs
+++RegistryFrom.resx
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\registryfrom.resx
+++SocialActivistsForm.Designer.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\socialactivistsform.designer.cs
+++SocialActivistsForm.resx
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\socialactivistsform.resx
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{98777d92-67f0-49e3-8584-93b41b212270}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1d71f495-2110-4681-aa87-d6bdd882ed30}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ecb36d18-80b2-448c-a05e-b176dbad0b04}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{98777d92-67f0-49e3-8584-93b41b212270}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1d71f495-2110-4681-aa87-d6bdd882ed30}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ecb36d18-80b2-448c-a05e-b176dbad0b04}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{98777d92-67f0-49e3-8584-93b41b212270}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{1d71f495-2110-4681-aa87-d6bdd882ed30}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{ecb36d18-80b2-448c-a05e-b176dbad0b04}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++System.Windows.Forms.Analyzers
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\program files\dotnet\packs\microsoft.windowsdesktop.app.ref\6.0.0\analyzers\dotnet\system.windows.forms.analyzers.dll
+++System.Windows.Forms.Analyzers.CSharp
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\program files\dotnet\packs\microsoft.windowsdesktop.app.ref\6.0.0\analyzers\dotnet\cs\system.windows.forms.analyzers.csharp.dll
+++Microsoft.NETCore.App
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\microsoft.netcore.app
+i:{98777d92-67f0-49e3-8584-93b41b212270}:c:\users\yaniv\onedrive\desktop\promoit\tests\userstest\microsoft.netcore.app
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\microsoft.netcore.app
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:c:\users\yaniv\onedrive\desktop\promoit\utilities\httpclientsetup\microsoft.netcore.app
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:c:\users\yaniv\onedrive\desktop\promoit\utilities\mysqlconnection\microsoft.netcore.app
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:c:\users\yaniv\onedrive\desktop\promoit\utilities\queueclientsetup\microsoft.netcore.app
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\microsoft.netcore.app
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\microsoft.netcore.app
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\microsoft.netcore.app
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\microsoft.netcore.app
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\microsoft.netcore.app
+i:{1d71f495-2110-4681-aa87-d6bdd882ed30}:c:\users\yaniv\onedrive\desktop\promoit\services\accessors\twitteraccessor\microsoft.netcore.app
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\users\yaniv\onedrive\desktop\promoit\services\accessors\databaseaccessor\microsoft.netcore.app
+i:{ecb36d18-80b2-448c-a05e-b176dbad0b04}:c:\users\yaniv\onedrive\desktop\promoit\services\engines\witterengine\microsoft.netcore.app
+i:{f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb}:c:\users\yaniv\onedrive\desktop\promoit\services\engines\balanceengine\microsoft.netcore.app
+++Microsoft.WindowsDesktop.App.WindowsForms
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\microsoft.windowsdesktop.app.windowsforms
+++Microsoft.Extensions.ApiDescription.Client (3.0.0)
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:>5734
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5833
+++Newtonsoft.Json (13.0.1)
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:>5732
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5816
+++NSwag.ApiDescription.Client (13.0.5)
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:>5733
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5832
+++DataBaseAccessor
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\services\accessors\databaseaccessor\databaseaccessor.csproj
+i:{43f0bd28-feef-4ee6-bcba-b3230ed80a05}:DataBaseAccessor
+++Resources.Designer.cs
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\properties\resources.designer.cs
+++Tests
+i:{00000000-0000-0000-0000-000000000000}:Tests
+++UsersTest
+i:{7f5fdbfa-8524-405a-b7d5-8944d0ddc71e}:UsersTest
+++UnitTest.cs
+i:{98777d92-67f0-49e3-8584-93b41b212270}:c:\users\yaniv\onedrive\desktop\promoit\tests\userstest\unittest.cs
+++xunit.analyzers
+i:{98777d92-67f0-49e3-8584-93b41b212270}:c:\users\yaniv\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++coverlet.collector (3.1.0)
+i:{98777d92-67f0-49e3-8584-93b41b212270}:>5849
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5835
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{98777d92-67f0-49e3-8584-93b41b212270}:>5846
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5813
+++xunit (2.4.1)
+i:{98777d92-67f0-49e3-8584-93b41b212270}:>5847
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5820
+++xunit.runner.visualstudio (2.4.3)
+i:{98777d92-67f0-49e3-8584-93b41b212270}:>5848
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5831
+++HttpTriggerQueueOutputTest
+i:{7f5fdbfa-8524-405a-b7d5-8944d0ddc71e}:HttpTriggerQueueOutputTest
+++Approvals
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\approvals\
+++appsettings.json
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\appsettings.json
+++IntegrationTest.cs
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\integrationtest.cs
+++Startup.cs
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\startup.cs
+++IntegrationTest.TestSendingMessageAsync.approved.json
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\approvals\integrationtest.testsendingmessageasync.approved.json
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\integrationtest.testsendingmessageasync.approved.json
+++IntegrationTest.TestSendingMessageAsync.approved.txt
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\tests\httptriggerqueueoutputtest\approvals\integrationtest.testsendingmessageasync.approved.txt
+++Microsoft.Extensions.Logging.Generators
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:c:\users\yaniv\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Xunit.DependencyInjection.Analyzer
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\.nuget\packages\xunit.dependencyinjection\8.3.0\analyzers\dotnet\cs\xunit.dependencyinjection.analyzer.dll
+++ApprovalTests (5.7.1)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5810
+++Azure.Storage.Queues (12.8.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5814
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:>5881
+++Microsoft.Extensions.Configuration (6.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5830
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:>5885
+++Microsoft.Extensions.Configuration.Abstractions (6.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5815
+++Microsoft.Extensions.Configuration.Binder (6.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5818
+++Microsoft.Extensions.Configuration.FileExtensions (6.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5822
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:>5883
+++Microsoft.Extensions.Configuration.Json (6.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5825
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:>5884
+++Microsoft.Extensions.Http (6.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5819
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:>5750
+++Microsoft.Extensions.Http.Polly (6.0.1)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5838
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:>5752
+++Microsoft.Extensions.Logging (6.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5840
+++Microsoft.Extensions.Logging.Abstractions (6.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5811
+++Polly (7.2.2)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5827
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:>5751
+++Xunit.DependencyInjection (8.3.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5812
+++Xunit.DependencyInjection.Logging (8.0.0)
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:>5817
+++HttpClientSetup
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\utilities\httpclientsetup\httpclientsetup.csproj
+i:{966657ac-1f71-46a2-9daa-e48abb893f22}:HttpClientSetup
+++QueueClientSetup
+i:{cdd77af6-6a47-4b1f-93a5-1c553a83b31a}:c:\users\yaniv\onedrive\desktop\promoit\utilities\queueclientsetup\queueclientsetup.csproj
+i:{966657ac-1f71-46a2-9daa-e48abb893f22}:QueueClientSetup
+++Utilities
+i:{00000000-0000-0000-0000-000000000000}:Utilities
+++Setup.cs
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:c:\users\yaniv\onedrive\desktop\promoit\utilities\httpclientsetup\setup.cs
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:c:\users\yaniv\onedrive\desktop\promoit\utilities\queueclientsetup\setup.cs
+++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:>5748
+i:{b144d670-9355-4f74-9a5e-bd95736c7310}:>5882
+++Polly.Extensions.Http (3.0.0)
+i:{c50b9cff-cdcf-4cb7-b7a3-b260185f97f5}:>5749
+++MySQLConnection
+i:{966657ac-1f71-46a2-9daa-e48abb893f22}:MySQLConnection
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\users\yaniv\onedrive\desktop\promoit\utilities\mysqlconnection\mysqlconnection.csproj
+++App.config
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:c:\users\yaniv\onedrive\desktop\promoit\utilities\mysqlconnection\app.config
+++Connection.cs
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:c:\users\yaniv\onedrive\desktop\promoit\utilities\mysqlconnection\connection.cs
+++Assemblies
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:assemblies
+++MySql.Data
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:c:\users\yaniv\onedrive\desktop\promoit\utilities\mysqlconnection\mysql.data
+++MySql.Data (8.0.28)
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:>5770
+++RockLib.Configuration (2.5.3)
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:>5766
+++System.Configuration.ConfigurationManager (6.0.0)
+i:{88e981e6-e300-43db-82c6-9518450ac26f}:>5768
+++Services
+i:{00000000-0000-0000-0000-000000000000}:Services
+++HttpTriggerQueueOutput
+i:{abae42b9-b3e1-441b-90a2-77f84ebd1a24}:HttpTriggerQueueOutput
+++Connected Services 
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:>5180
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:>2317
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:>2323
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:>3275
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:>5721
+++Data.cs
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\data.cs
+++host.json
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\host.json
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\host.json
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\host.json
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\host.json
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\host.json
+++local.settings.json
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\local.settings.json
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\local.settings.json
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\local.settings.json
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\local.settings.json
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\local.settings.json
+++Manager.cs
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\manager.cs
+++Application Insights Sdk (Local)
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:>6072
+++Storage Azurite emulator (AzureWebJobsStorage)
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:>6073
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:>5961
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:>6188
+++launchSettings.json
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\properties\launchsettings.json
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\properties\launchsettings.json
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\properties\launchsettings.json
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\properties\launchsettings.json
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\properties\launchsettings.json
+++serviceDependencies.json
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\properties\servicedependencies.json
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\properties\servicedependencies.json
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\properties\servicedependencies.json
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\properties\servicedependencies.json
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\properties\servicedependencies.json
+++serviceDependencies.local.json
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\onedrive\desktop\promoit\services\httptriggerqueueoutput\properties\servicedependencies.local.json
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\properties\servicedependencies.local.json
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\properties\servicedependencies.local.json
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\properties\servicedependencies.local.json
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\properties\servicedependencies.local.json
+++Microsoft.Azure.Functions.Analyzers
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\.nuget\packages\microsoft.azure.functions.analyzers\1.0.0\analyzers\dotnet\cs\microsoft.azure.functions.analyzers.dll
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\.nuget\packages\microsoft.azure.functions.analyzers\1.0.0\analyzers\dotnet\cs\microsoft.azure.functions.analyzers.dll
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\.nuget\packages\microsoft.azure.functions.analyzers\1.0.0\analyzers\dotnet\cs\microsoft.azure.functions.analyzers.dll
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\.nuget\packages\microsoft.azure.functions.analyzers\1.0.0\analyzers\dotnet\cs\microsoft.azure.functions.analyzers.dll
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\.nuget\packages\microsoft.azure.functions.analyzers\1.0.0\analyzers\dotnet\cs\microsoft.azure.functions.analyzers.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.Azure.WebJobs.Extensions.OpenApi (0.7.2-preview)
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:>5798
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:>5872
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:>5769
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:>5779
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:>5863
+++Microsoft.Azure.WebJobs.Extensions.Storage (5.0.0)
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:>5800
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:>5874
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:>5772
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:>5781
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:>5865
+++Microsoft.NET.Sdk.Functions (4.0.1)
+i:{abde0418-6918-4328-9308-5c50eaf1d32c}:>5799
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:>5873
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:>5771
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:>5780
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:>5864
+++Managers
+i:{abae42b9-b3e1-441b-90a2-77f84ebd1a24}:Managers
+++UserManager
+i:{05100108-d3a3-4acc-b5e1-0b19cd3ae615}:UserManager
+++.gitignore
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\.gitignore
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\.gitignore
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\.gitignore
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\.gitignore
+++login.cs
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\login.cs
+++User.cs
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\usermanager\user.cs
+++No service dependencies discovered
+i:{f55be64c-cb56-4d13-ae40-9f9039c9be88}:>2318
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:>5722
+++CampaignsManager
+i:{05100108-d3a3-4acc-b5e1-0b19cd3ae615}:CampaignsManager
+++Campaign.cs
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\campaign.cs
+++Campaigns.cs
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\campaignsmanager\campaigns.cs
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\users\yaniv\onedrive\desktop\promoit\services\accessors\databaseaccessor\campaigns.cs
+++Application Insights
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:>5959
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:>6186
+++Dependency appInsights1 is missing and needs to be configured for current profile.
+i:{2c5f247e-5896-48da-bfdf-e9716a54b0be}:>5960
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:>6187
+++ShopManager
+i:{05100108-d3a3-4acc-b5e1-0b19cd3ae615}:ShopManager
+++Donation.cs
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\donation.cs
+++Order.cs
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\order.cs
+++Shop.cs
+i:{11d32b0c-7c14-48d7-876d-9d83105be94b}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\shopmanager\shop.cs
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\users\yaniv\onedrive\desktop\promoit\services\accessors\databaseaccessor\shop.cs
+++SocialNetworksManager
+i:{05100108-d3a3-4acc-b5e1-0b19cd3ae615}:SocialNetworksManager
+++Function1.cs
+i:{8eab66e0-87b8-43f0-8ed1-1339fca2e953}:c:\users\yaniv\onedrive\desktop\promoit\services\managers\socialnetworksmanager\function1.cs
+++Accessors
+i:{abae42b9-b3e1-441b-90a2-77f84ebd1a24}:Accessors
+++TwitterAccessor
+i:{43f0bd28-feef-4ee6-bcba-b3230ed80a05}:TwitterAccessor
+++Class1.cs
+i:{1d71f495-2110-4681-aa87-d6bdd882ed30}:c:\users\yaniv\onedrive\desktop\promoit\services\accessors\twitteraccessor\class1.cs
+i:{ecb36d18-80b2-448c-a05e-b176dbad0b04}:c:\users\yaniv\onedrive\desktop\promoit\services\engines\witterengine\class1.cs
+i:{f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb}:c:\users\yaniv\onedrive\desktop\promoit\services\engines\balanceengine\class1.cs
+++Twitter.cs
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\users\yaniv\onedrive\desktop\promoit\services\accessors\databaseaccessor\twitter.cs
+++Users.cs
+i:{b16bedd0-5d29-448b-a952-ed97f348fcb7}:c:\users\yaniv\onedrive\desktop\promoit\services\accessors\databaseaccessor\users.cs
+++FunctionApp1
+++Engines
+i:{abae42b9-b3e1-441b-90a2-77f84ebd1a24}:Engines
+++TwitterEngine
+i:{3e7ade23-41a9-4b47-8bfc-618c6eacdcd5}:TwitterEngine
+++BalanceEngine
+i:{3e7ade23-41a9-4b47-8bfc-618c6eacdcd5}:BalanceEngine
+++unvaccinted_18012022.jpg
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\openapis\unvaccinted_18012022.jpg
+++19012022.jpg
+i:{7a20a612-8187-469c-8963-64b4acdc3268}:c:\users\yaniv\onedrive\desktop\promoit\client\ui\openapis\19012022.jpg
+++Solution 'PromoIt' ‎(15 of 15 projects)
+i:{00000000-0000-0000-0000-000000000000}:PromoIt.sln

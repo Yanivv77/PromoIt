@@ -39,14 +39,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView_MyDonations = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
-            this.richCampaign = new System.Windows.Forms.RichTextBox();
+            this.richTextBox_Campaign = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button_SendItems = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView_ToSend = new System.Windows.Forms.DataGridView();
             this.UserName = new System.Windows.Forms.Label();
+            this.label_ID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_MyDonations)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ToSend)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -77,6 +78,7 @@
             this.button_CreateDonation.TabIndex = 9;
             this.button_CreateDonation.Text = "Create Donation";
             this.button_CreateDonation.UseVisualStyleBackColor = false;
+            this.button_CreateDonation.Click += new System.EventHandler(this.button_CreateDonation_Click);
             // 
             // richTextBox_Quantity
             // 
@@ -140,12 +142,13 @@
             // 
             // dataGridView_MyDonations
             // 
+            this.dataGridView_MyDonations.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_MyDonations.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_MyDonations.Location = new System.Drawing.Point(645, 82);
+            this.dataGridView_MyDonations.Location = new System.Drawing.Point(645, 73);
             this.dataGridView_MyDonations.Name = "dataGridView_MyDonations";
             this.dataGridView_MyDonations.RowHeadersWidth = 51;
             this.dataGridView_MyDonations.RowTemplate.Height = 29;
-            this.dataGridView_MyDonations.Size = new System.Drawing.Size(541, 124);
+            this.dataGridView_MyDonations.Size = new System.Drawing.Size(680, 124);
             this.dataGridView_MyDonations.TabIndex = 24;
             // 
             // label5
@@ -154,19 +157,19 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Cambria", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(769, 27);
+            this.label5.Location = new System.Drawing.Point(852, 21);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(276, 51);
             this.label5.TabIndex = 23;
             this.label5.Text = "My Donations";
             // 
-            // richCampaign
+            // richTextBox_Campaign
             // 
-            this.richCampaign.Location = new System.Drawing.Point(280, 356);
-            this.richCampaign.Name = "richCampaign";
-            this.richCampaign.Size = new System.Drawing.Size(269, 30);
-            this.richCampaign.TabIndex = 26;
-            this.richCampaign.Text = "";
+            this.richTextBox_Campaign.Location = new System.Drawing.Point(280, 356);
+            this.richTextBox_Campaign.Name = "richTextBox_Campaign";
+            this.richTextBox_Campaign.Size = new System.Drawing.Size(269, 30);
+            this.richTextBox_Campaign.TabIndex = 26;
+            this.richTextBox_Campaign.Text = "";
             // 
             // label6
             // 
@@ -189,7 +192,7 @@
             this.button_SendItems.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_SendItems.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button_SendItems.ForeColor = System.Drawing.Color.White;
-            this.button_SendItems.Location = new System.Drawing.Point(735, 440);
+            this.button_SendItems.Location = new System.Drawing.Point(827, 416);
             this.button_SendItems.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_SendItems.Name = "button_SendItems";
             this.button_SendItems.Size = new System.Drawing.Size(365, 67);
@@ -203,21 +206,22 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Cambria", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(780, 239);
+            this.label7.Location = new System.Drawing.Point(849, 230);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(279, 51);
             this.label7.TabIndex = 28;
             this.label7.Text = "Items To Send";
             // 
-            // dataGridView1
+            // dataGridView_ToSend
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(645, 293);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(541, 124);
-            this.dataGridView1.TabIndex = 29;
+            this.dataGridView_ToSend.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_ToSend.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_ToSend.Location = new System.Drawing.Point(645, 284);
+            this.dataGridView_ToSend.Name = "dataGridView_ToSend";
+            this.dataGridView_ToSend.RowHeadersWidth = 51;
+            this.dataGridView_ToSend.RowTemplate.Height = 29;
+            this.dataGridView_ToSend.Size = new System.Drawing.Size(680, 124);
+            this.dataGridView_ToSend.TabIndex = 29;
             // 
             // UserName
             // 
@@ -231,17 +235,30 @@
             this.UserName.TabIndex = 30;
             this.UserName.Text = "UserName";
             // 
+            // label_ID
+            // 
+            this.label_ID.AutoSize = true;
+            this.label_ID.BackColor = System.Drawing.Color.Transparent;
+            this.label_ID.Font = new System.Drawing.Font("Impact", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_ID.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label_ID.Location = new System.Drawing.Point(1313, 508);
+            this.label_ID.Name = "label_ID";
+            this.label_ID.Size = new System.Drawing.Size(105, 41);
+            this.label_ID.TabIndex = 31;
+            this.label_ID.Text = "label8";
+            // 
             // BusinessCompanyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UI.Properties.Resources.twbackgound;
-            this.ClientSize = new System.Drawing.Size(1229, 558);
+            this.ClientSize = new System.Drawing.Size(1359, 558);
+            this.Controls.Add(this.label_ID);
             this.Controls.Add(this.UserName);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridView_ToSend);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button_SendItems);
-            this.Controls.Add(this.richCampaign);
+            this.Controls.Add(this.richTextBox_Campaign);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dataGridView_MyDonations);
             this.Controls.Add(this.label5);
@@ -257,7 +274,7 @@
             this.Name = "BusinessCompanyForm";
             this.Text = "BusinessCompanyForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_MyDonations)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_ToSend)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -275,11 +292,12 @@
         private Label label2;
         private DataGridView dataGridView_MyDonations;
         private Label label5;
-        private RichTextBox richCampaign;
+        private RichTextBox richTextBox_Campaign;
         private Label label6;
         private Button button_SendItems;
         private Label label7;
-        private DataGridView dataGridView1;
+        private DataGridView dataGridView_ToSend;
         private Label UserName;
+        private Label label_ID;
     }
 }

@@ -16,8 +16,21 @@ namespace UI
         {
             InitializeComponent();
             UserName.Text = name;
+            label_ID.Text = id.ToString();
+            dataGridView_DonatedItems.DataSource = DataBaseAccessor.Shop.AllDonationsTable();
+            dataGridView_Bought.DataSource = DataBaseAccessor.Shop.OrdersByActivist(id);
+
+
         }
 
-       
+        private void button_Buy_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_Donate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
