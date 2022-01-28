@@ -12,7 +12,7 @@ namespace UI
 {
     public partial class BusinessCompanyForm : Form
     {
-        public BusinessCompanyForm(string name)
+        public BusinessCompanyForm(string name, int id)
         {
             
             InitializeComponent();

@@ -1,0 +1,131 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Azure Functions OpenAPI Extension",
+    "version": "1.0.0"
+  },
+  "host": "localhost:7071",
+  "basePath": "/api",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/Order": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "operationId": "RunOrde",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/order"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation succeeded",
+            "x-ms-summary": "The success result"
+          },
+          "400": {
+            "description": "Bad request",
+            "x-ms-summary": "Invalid Request"
+          }
+        },
+        "security": [
+          {
+            "function_key": [ ]
+          }
+        ]
+      }
+    },
+    "/Donation": {
+      "post": {
+        "tags": [
+          "Donation"
+        ],
+        "operationId": "RunDonation",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/donation"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation succeeded",
+            "x-ms-summary": "The success result"
+          },
+          "400": {
+            "description": "Bad request",
+            "x-ms-summary": "Invalid Request"
+          }
+        },
+        "security": [
+          {
+            "function_key": [ ]
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "donation": {
+      "type": "object",
+      "properties": {
+        "businessID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "campaignName": {
+          "type": "string"
+        },
+        "productName": {
+          "type": "string"
+        },
+        "productValue": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "quantity": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "order": {
+      "type": "object",
+      "properties": {
+        "activistUserID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "productID": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "function_key": {
+      "type": "apiKey",
+      "name": "code",
+      "in": "query"
+    }
+  }
+}

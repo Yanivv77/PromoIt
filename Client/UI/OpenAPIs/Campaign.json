@@ -1,0 +1,77 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Azure Functions OpenAPI Extension",
+    "version": "1.0.0"
+  },
+  "host": "localhost:7071",
+  "basePath": "/api",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/Campaign": {
+      "post": {
+        "tags": [
+          "Campaign"
+        ],
+        "operationId": "Send",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/campaign"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operation succeeded",
+            "x-ms-summary": "The success result"
+          },
+          "400": {
+            "description": "Bad request",
+            "x-ms-summary": "Invalid Request"
+          }
+        },
+        "security": [
+          {
+            "function_key": [ ]
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "campaign": {
+      "type": "object",
+      "properties": {
+        "campaignName": {
+          "type": "string"
+        },
+        "nonProfitUserID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "hashtag": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "function_key": {
+      "type": "apiKey",
+      "name": "code",
+      "in": "query"
+    }
+  }
+}

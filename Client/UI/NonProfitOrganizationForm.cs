@@ -12,7 +12,7 @@ namespace UI
 {
     public partial class NonProfitOrganizationForm : Form
     {
-        public NonProfitOrganizationForm(string name)
+        public NonProfitOrganizationForm(string name, int id)
         {
             InitializeComponent();
             UserName.Text = name;

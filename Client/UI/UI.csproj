@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="OpenAPIs\Campaign.json" />
+    <None Remove="OpenAPIs\Shop.json" />
     <None Remove="OpenAPIs\User.json" />
   </ItemGroup>
 
@@ -17,6 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <OpenApiReference Include="OpenAPIs\Campaign.json" CodeGenerator="NSwagCSharp" Namespace="Campaign" ClassName="CampaignClient" />
+    <OpenApiReference Include="OpenAPIs\Shop.json" CodeGenerator="NSwagCSharp" Namespace="Shop" ClassName="ShopClient" />
     <OpenApiReference Include="OpenAPIs\swagger.json" CodeGenerator="NSwagCSharp" Namespace="APIDemo" ClassName="Client">
       <SourceUri>http://localhost:7071/api/swagger.json</SourceUri>
     </OpenApiReference>

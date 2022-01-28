@@ -93,7 +93,7 @@
     },
     "ecb36d18-80b2-448c-a05e-b176dbad0b04": {
       "ProjectGuid": "ecb36d18-80b2-448c-a05e-b176dbad0b04",
-      "DisplayName": "WitterEngine",
+      "DisplayName": "TwitterEngine",
       "ColorIndex": 1
     },
     "f1c1fa37-37ed-4850-8bf8-ebec09cd4cfb": {
@@ -165,7 +165,12 @@
       "ProjectGuid": "abde0418-6918-4328-9308-5c50eaf1d32c",
       "DisplayName": "HttpTriggerQueueOutput",
       "ColorIndex": 15
+    },
+    "29a05496-d191-46e2-ac2a-7f3be523fe45": {
+      "ProjectGuid": "29a05496-d191-46e2-ac2a-7f3be523fe45",
+      "DisplayName": "FunctionApp1",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 1
 }

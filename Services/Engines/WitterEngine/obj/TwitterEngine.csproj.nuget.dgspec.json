@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\UsersTest.csproj": {}
+    "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\TwitterEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\UsersTest.csproj": {
+    "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\TwitterEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\UsersTest.csproj",
-        "projectName": "UsersTest",
-        "projectPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\UsersTest.csproj",
+        "projectUniqueName": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\TwitterEngine.csproj",
+        "projectName": "TwitterEngine",
+        "projectPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\TwitterEngine.csproj",
         "packagesPath": "C:\\Users\\yaniv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Tests\\usersTest\\obj\\",
+        "outputPath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\PromoIt\\Services\\Engines\\WitterEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yaniv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,28 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.11.0, )"
-            },
-            "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.4.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
