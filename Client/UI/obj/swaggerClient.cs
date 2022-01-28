@@ -43,16 +43,13 @@ namespace APIDemo
         partial void PrepareRequest(System.Net.Http.HttpClient client, System.Net.Http.HttpRequestMessage request, System.Text.StringBuilder urlBuilder);
         partial void ProcessResponse(System.Net.Http.HttpClient client, System.Net.Http.HttpResponseMessage response);
     
-        /// <returns>Operation succeeded</returns>
-        /// <exception cref="ApiException">A server side error occurred.</exception>
+        
         public System.Threading.Tasks.Task SendAsync(Data body)
         {
             return SendAsync(body, System.Threading.CancellationToken.None);
         }
     
-        /// <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
-        /// <returns>Operation succeeded</returns>
-        /// <exception cref="ApiException">A server side error occurred.</exception>
+        
         public async System.Threading.Tasks.Task SendAsync(Data body, System.Threading.CancellationToken cancellationToken)
         {
             var urlBuilder_ = new System.Text.StringBuilder();
