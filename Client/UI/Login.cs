@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataBaseAccessor;
-
+#pragma warning disable CS8604 // Possible null reference argument.
 namespace UI
 {
     public partial class Login : Form
@@ -62,7 +62,9 @@ namespace UI
                 switch (Type)
                 {
                     case "Activist":
+
                         SocialActivistsForm Activistform = new SocialActivistsForm(username, int.Parse(Id));
+
                         this.Hide();
                         Activistform.Show();
                         break;

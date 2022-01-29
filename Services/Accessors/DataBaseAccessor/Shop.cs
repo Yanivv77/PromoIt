@@ -4,17 +4,17 @@ using System.Data;
 
 namespace DataBaseAccessor
 {
-    internal class Shop
+    public class Shop
     {
 
        
 
-        public static void AddProductDonation(string DotationID, string BusinessID, string CampaignName,
+        public static void AddProductDonation(string BusinessID, string CampaignName,
             string ProductName, int ProductValue, int Quantity)
 
         {
 
-            string AddBusiness = $"call ProductDonation_procedure ('{DotationID}' ,'{BusinessID}' , '{CampaignName}' ,'{ProductName}','{ProductValue}','{Quantity}');";
+            string AddBusiness = $"call ProductDonation_procedure ( '{BusinessID}' , '{CampaignName}' ,'{ProductName}','{ProductValue}','{Quantity}');";
             Connection.executeMyQuery(AddBusiness);
 
         }
@@ -41,7 +41,7 @@ namespace DataBaseAccessor
             return table;
         }
 
-        public static DataTable DonationsBYBusiness(string BusinessID)
+        public static DataTable DonationsBYBusiness(int BusinessID)
         {
 
             // populate the datagridview
@@ -53,7 +53,7 @@ namespace DataBaseAccessor
         }
 
        
-        public static DataTable OrdersByBusiness(string BusinessID)
+        public static DataTable OrdersByBusiness(int BusinessID)
         {
 
             // populate the datagridview
@@ -63,7 +63,16 @@ namespace DataBaseAccessor
             adapter.Fill(table);
             return table;
         }
+        public static DataTable OrdersByActivist(int ActivistID)
+        {
 
+            // populate the datagridview
+            string selectQuery = $" call DisplayOrdersBYActivist_procedure('{ActivistID}'); ";
+            DataTable table = new DataTable();
+            var adapter = Connection.Adapter(selectQuery, "PromoIt");
+            adapter.Fill(table);
+            return table;
+        }
 
 
 

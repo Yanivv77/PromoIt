@@ -40,13 +40,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button_Buy = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView_Bought = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.richTextBox_Campaign = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.button_Donate = new System.Windows.Forms.Button();
+            this.label_ID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_DonatedItems)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Bought)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -103,6 +104,7 @@
             // 
             // dataGridView_DonatedItems
             // 
+            this.dataGridView_DonatedItems.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_DonatedItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_DonatedItems.Location = new System.Drawing.Point(21, 155);
             this.dataGridView_DonatedItems.Name = "dataGridView_DonatedItems";
@@ -179,16 +181,18 @@
             this.button_Buy.TabIndex = 40;
             this.button_Buy.Text = "Buy";
             this.button_Buy.UseVisualStyleBackColor = false;
+            this.button_Buy.Click += new System.EventHandler(this.button_Buy_Click);
             // 
-            // dataGridView1
+            // dataGridView_Bought
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 475);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(814, 161);
-            this.dataGridView1.TabIndex = 42;
+            this.dataGridView_Bought.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_Bought.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Bought.Location = new System.Drawing.Point(15, 475);
+            this.dataGridView_Bought.Name = "dataGridView_Bought";
+            this.dataGridView_Bought.RowHeadersWidth = 51;
+            this.dataGridView_Bought.RowTemplate.Height = 29;
+            this.dataGridView_Bought.Size = new System.Drawing.Size(814, 161);
+            this.dataGridView_Bought.TabIndex = 42;
             // 
             // label6
             // 
@@ -238,6 +242,19 @@
             this.button_Donate.TabIndex = 47;
             this.button_Donate.Text = "Donate";
             this.button_Donate.UseVisualStyleBackColor = false;
+            this.button_Donate.Click += new System.EventHandler(this.button_Donate_Click);
+            // 
+            // label_ID
+            // 
+            this.label_ID.AutoSize = true;
+            this.label_ID.BackColor = System.Drawing.Color.Transparent;
+            this.label_ID.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_ID.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label_ID.Location = new System.Drawing.Point(791, 752);
+            this.label_ID.Name = "label_ID";
+            this.label_ID.Size = new System.Drawing.Size(38, 35);
+            this.label_ID.TabIndex = 48;
+            this.label_ID.Text = "ID";
             // 
             // SocialActivistsForm
             // 
@@ -245,10 +262,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UI.Properties.Resources.twbackgound;
             this.ClientSize = new System.Drawing.Size(853, 796);
+            this.Controls.Add(this.label_ID);
             this.Controls.Add(this.button_Donate);
             this.Controls.Add(this.richTextBox_Campaign);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridView_Bought);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button_Buy);
             this.Controls.Add(this.richTextBox_Quantity);
@@ -265,7 +283,7 @@
             this.Name = "SocialActivistsForm";
             this.Text = "SocialActivistsForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_DonatedItems)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Bought)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,10 +302,11 @@
         private Label label4;
         private Label label3;
         private Button button_Buy;
-        private DataGridView dataGridView1;
+        private DataGridView dataGridView_Bought;
         private Label label6;
         private RichTextBox richTextBox_Campaign;
         private Label label7;
         private Button button_Donate;
+        private Label label_ID;
     }
 }

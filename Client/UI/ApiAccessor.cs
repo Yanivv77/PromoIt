@@ -26,17 +26,21 @@ namespace UI
 
 
          // Async method lacks 'await' operators and will run synchronously
+#pragma warning disable CS1998 // Async method lacks 'await' operators and will run synchronously
         public async Task<List<string>> SendUser(string username, string password)
 
         {
+            
             List<string> user = new List<string>();
             string name = new User.User { UserName = username, Password = password }.UserName;
             string pass = new User.User { UserName = username, Password = password }.Password;
             user.Add(name);
             user.Add(pass);
-            return user;
+            return user; 
 
         }
+
+      
 
         public async Task<List<string>> SendDonation(int businessID, string campaignName, string productName,
             int productValue, int quantity)
@@ -53,6 +57,7 @@ namespace UI
                 Quantity = quantity
             };
 
+#pragma warning disable CS8604 // Possible null reference argument.
             DonationList.Add(Donation.BusinessID.ToString());
             DonationList.Add(Donation.CampaignName);
             DonationList.Add(Donation.ProductName);

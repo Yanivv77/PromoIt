@@ -40,6 +40,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView_MyCampaigns = new System.Windows.Forms.DataGridView();
             this.UserName = new System.Windows.Forms.Label();
+            this.label_ID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_MyCampaigns)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,6 +72,7 @@
             this.button_CreateCampaign.TabIndex = 13;
             this.button_CreateCampaign.Text = "Create Campaign";
             this.button_CreateCampaign.UseVisualStyleBackColor = false;
+            this.button_CreateCampaign.Click += new System.EventHandler(this.button_CreateCampaign_Click);
             // 
             // label4
             // 
@@ -140,12 +142,13 @@
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label5.Location = new System.Drawing.Point(880, 45);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(296, 52);
+            this.label5.Size = new System.Drawing.Size(289, 51);
             this.label5.TabIndex = 17;
             this.label5.Text = "My Campaigns";
             // 
             // dataGridView_MyCampaigns
             // 
+            this.dataGridView_MyCampaigns.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_MyCampaigns.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_MyCampaigns.Location = new System.Drawing.Point(770, 118);
             this.dataGridView_MyCampaigns.Name = "dataGridView_MyCampaigns";
@@ -162,9 +165,21 @@
             this.UserName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.UserName.Location = new System.Drawing.Point(12, 502);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(160, 42);
+            this.UserName.Size = new System.Drawing.Size(158, 41);
             this.UserName.TabIndex = 31;
             this.UserName.Text = "UserName";
+            // 
+            // label_ID
+            // 
+            this.label_ID.AutoSize = true;
+            this.label_ID.BackColor = System.Drawing.Color.Transparent;
+            this.label_ID.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_ID.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label_ID.Location = new System.Drawing.Point(1284, 519);
+            this.label_ID.Name = "label_ID";
+            this.label_ID.Size = new System.Drawing.Size(27, 25);
+            this.label_ID.TabIndex = 32;
+            this.label_ID.Text = "id";
             // 
             // NonProfitOrganizationForm
             // 
@@ -172,6 +187,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UI.Properties.Resources.twbackgound;
             this.ClientSize = new System.Drawing.Size(1332, 553);
+            this.Controls.Add(this.label_ID);
             this.Controls.Add(this.UserName);
             this.Controls.Add(this.dataGridView_MyCampaigns);
             this.Controls.Add(this.label5);
@@ -205,5 +221,6 @@
         private Label label5;
         private DataGridView dataGridView_MyCampaigns;
         private Label UserName;
+        private Label label_ID;
     }
 }
